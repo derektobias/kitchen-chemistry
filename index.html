@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Kitchen Chemistry</title>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#17140f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Kitchen Chemistry">
+<link rel="apple-touch-icon" href="icon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="phone">
+  <div class="app-header">
+    <div class="eyebrow-row">
+      <p class="eyebrow">Kitchen Chemistry</p>
+      <span class="step-progress" id="stepProgress"></span>
+    </div>
+    <div class="recipe-tabs" id="recipeTabs"></div>
+    <h1 class="recipe-title" id="recipeTitle"></h1>
+  </div>
+
+  <div class="content" id="content">
+    <p class="step-instruction">Loading recipes…</p>
+  </div>
+</div>
+
+<!-- storage.js before app.js — order matters since these are plain global
+     scripts (no bundler / no ES modules), which keeps things simple to run
+     straight from VS Code's Live Server or GitHub Pages with no build step.
+     Recipe/technique data itself is fetched at runtime from data/*.json,
+     not bundled here — see js/app.js loadData(). -->
+<script src="js/storage.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

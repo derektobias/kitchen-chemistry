@@ -1,0 +1,197 @@
+{
+  "searing": {
+    "name": "Searing / Maillard Reaction",
+    "typical_range": {
+      "param": "oil per pan surface",
+      "low": "thin coating",
+      "high": "1-2 tbsp per 10in pan"
+    },
+    "explanations": [
+      "High heat + a dry surface browns meat and builds flavor.",
+      "Searing works because high, dry heat triggers the Maillard reaction — a browning reaction between amino acids and sugars that creates hundreds of new flavor compounds. Too much oil or a wet surface insulates the meat and steams it instead of browning it.",
+      "The Maillard reaction is distinct from caramelization (which only involves sugar). It starts around 285°F/140°C and accelerates with heat, requiring a relatively dry surface because water has to evaporate before the pan surface can get hot enough to brown proteins. Excess oil doesn't just add fat — it lowers the effective surface temperature at the meat's contact point and can pool, creating a barrier that traps steam against the meat, which is why a heavily oiled pan tends to produce gray, steamed meat instead of a deep brown crust."
+    ]
+  },
+  "resting": {
+    "name": "Resting Cooked Meat",
+    "typical_range": {
+      "param": "rest time per inch of thickness",
+      "low": "5 min",
+      "high": "10 min"
+    },
+    "explanations": [
+      "Letting meat sit after cooking keeps the juices in when you cut it.",
+      "Heat pushes moisture toward the center of the meat as it cooks. Resting gives that moisture time to redistribute evenly, so it stays in the meat instead of running out onto the cutting board the moment you slice it.",
+      "During cooking, muscle fibers contract and squeeze moisture toward the cooler center of the cut. Carryover cooking also continues for several minutes after heat is removed, as residual heat keeps moving inward. Resting allows both the temperature and moisture to equalize across the cut; slicing too early releases free moisture that hasn't had time to reabsorb into the fibers, resulting in a visibly wetter cutting board and a drier bite."
+    ]
+  },
+  "protein_denaturation": {
+    "name": "Protein Denaturation",
+    "typical_range": {
+      "param": "n/a",
+      "low": "",
+      "high": ""
+    },
+    "explanations": [
+      "Heat unfolds proteins, turning them from soft or liquid to firm — that's why eggs solidify and fish flakes.",
+      "Proteins are long folded chains held in shape by weak bonds. Heat breaks those bonds, causing proteins to unfold ('denature') and then bond to each other, squeezing out moisture as they firm up. This is why raw egg white turns from clear liquid to opaque solid, and why fish turns from translucent and gel-like to firm and flaky.",
+      "Denaturation temperatures vary by protein: egg whites (albumin) begin denaturing around 145°F/63°C, egg yolks slightly higher near 158°F/70°C, and muscle proteins denature in stages — myosin around 122°F/50°C, collagen starting to convert around 140°F/60°C. Overcooking pushes denaturation too far, causing proteins to bond too tightly and squeeze out excess moisture, which is the mechanism behind dry, rubbery overcooked eggs, fish, or chicken breast."
+    ]
+  },
+  "braising": {
+    "name": "Braising",
+    "typical_range": {
+      "param": "n/a",
+      "low": "",
+      "high": ""
+    },
+    "explanations": [
+      "Long, slow, moist heat breaks down tough connective tissue into tenderness.",
+      "Tough cuts of meat are full of collagen, a connective tissue that's chewy when raw or quickly cooked. Braising holds meat at a low simmer in liquid for a long time, slowly converting collagen into gelatin — the opposite of what a quick-cooking tender cut needs.",
+      "Collagen begins converting to gelatin around 160°F/71°C, but the conversion is time-dependent, not just temperature-dependent — it can take hours at a bare simmer (around 180-200°F/82-93°C) for tough, well-exercised cuts like chuck or short rib. Cooking too hot or fast causes muscle fibers to seize and expel moisture before collagen has time to convert, producing tough, dry meat despite the long cook."
+    ]
+  },
+  "gluten_development": {
+    "name": "Gluten Development",
+    "typical_range": {
+      "param": "n/a",
+      "low": "",
+      "high": ""
+    },
+    "explanations": [
+      "Mixing flour and water forms gluten, the stretchy network that gives baked goods structure.",
+      "Flour contains two proteins, glutenin and gliadin, that link into gluten strands when mixed with water and worked. More mixing builds a stronger, stretchier network — great for chewy bread, but overmixing a cake or pancake batter makes it tough instead of tender.",
+      "Gluten strands form through hydration and mechanical action, aligning glutenin and gliadin into an elastic network that traps gas from leavening. Bread is deliberately kneaded to maximize this network. Tender baked goods limit gluten formation through lower-protein flour, minimal mixing, or fats that coat flour particles and physically block gluten strands — why recipes warn to 'mix until just combined.'"
+    ]
+  },
+  "creaming": {
+    "name": "Creaming Butter and Sugar",
+    "typical_range": {
+      "param": "n/a",
+      "low": "",
+      "high": ""
+    },
+    "explanations": [
+      "Beating butter and sugar together whips tiny air pockets into the fat, giving baked goods lift.",
+      "Sugar crystals cut into solid butter as you beat them, carving out microscopic air pockets trapped in the fat. Those pockets expand in the oven, giving cookies and cakes a lighter texture than if the ingredients were simply melted or stirred together.",
+      "Properly creamed butter (cool but pliable, around 65-68°F/18-20°C) holds far more air than butter that's too cold (won't incorporate air) or too warm (collapses, releasing air it held). That trapped air expands from steam and gas during baking — under-creaming is a common cause of dense, flat cookies even when the leavening itself is correct."
+    ]
+  },
+  "leavening": {
+    "name": "Leavening: Baking Soda vs. Baking Powder",
+    "typical_range": {
+      "param": "n/a",
+      "low": "",
+      "high": ""
+    },
+    "explanations": [
+      "Baking soda needs an acid to activate; baking powder already contains one.",
+      "Both release carbon dioxide gas that makes batter rise, but they work differently. Baking soda is a base that needs an acidic ingredient (buttermilk, yogurt, lemon juice) to react. Baking powder already contains its own acid, so it can leaven a batter with no other acidic ingredients present.",
+      "Baking soda reacts immediately on contact with acid and moisture, so recipes using it alone need enough acid to fully neutralize it — too little can leave a soapy, metallic aftertaste. Baking powder contains sodium bicarbonate plus one or more powdered acids, often split between a fast-acting acid (reacts on contact with liquid) and a slow-acting one (reacts with heat) — the basis of 'double-acting' powder, giving a first rise at mixing and a second in the oven."
+    ]
+  },
+  "egg_foams": {
+    "name": "Egg Foams",
+    "typical_range": {
+      "param": "n/a",
+      "low": "",
+      "high": ""
+    },
+    "explanations": [
+      "Whipping eggs traps air in a stretchy protein network, adding lift without other leavening.",
+      "Beating egg whites or whole eggs unfolds their proteins, which then link together around trapped air bubbles, forming a stable foam. Folded into batter, this adds lightness — the basis of soufflés, angel food cake, and meringue.",
+      "Egg white foams progress from soft peaks (loosely networked, still fluid) to stiff peaks (a tighter, more stable network), and overwhipping breaks the protein bonds, causing collapse and weeping. Fat is the enemy of egg foams because it coats proteins and prevents them from linking around air bubbles — why a trace of yolk in whites, or an oily bowl, can prevent whites from whipping properly."
+    ]
+  },
+  "emulsification": {
+    "name": "Emulsification",
+    "typical_range": {
+      "param": "oil added per whisking interval",
+      "low": "slow, steady stream",
+      "high": "n/a"
+    },
+    "explanations": [
+      "An emulsifier lets oil and water mix into a smooth, stable blend instead of separating.",
+      "Oil and water don't naturally combine — their molecules aren't attracted to each other. An emulsifier (like mustard or egg yolk) can grab onto both oil and water at once, letting you whisk them into a smooth, stable mixture like vinaigrette or mayonnaise instead of a separated puddle.",
+      "Emulsifiers work because their molecules are amphipathic — one end attracted to water, the other to fat — allowing them to surround tiny oil droplets and keep them suspended in the water phase rather than coalescing. Adding oil slowly while whisking matters because it breaks the oil into small enough droplets for the emulsifier to fully coat; adding it too fast overwhelms that capacity and the emulsion breaks."
+    ]
+  },
+  "roux": {
+    "name": "Roux and Starch Thickening",
+    "typical_range": {
+      "param": "fat to flour ratio",
+      "low": "1:1 by volume",
+      "high": "1:1 by volume"
+    },
+    "explanations": [
+      "Cooking flour in fat, then whisking in liquid, thickens sauces smoothly.",
+      "A roux is equal parts fat and flour cooked together briefly, coating the starch granules in fat so they disperse evenly in liquid instead of clumping. As it heats, the starch granules absorb liquid and swell, thickening the sauce.",
+      "Starch granules thicken through gelatinization — absorbing water and swelling above roughly 180°F/82°C — and the fat prevents granules from clumping (which causes lumps). Cooking the roux longer ('blonde' or 'brown') develops flavor through toasting but slightly reduces thickening power, which is why darker roux-based sauces like gumbo need more roux for the same thickness as a pale béchamel."
+    ]
+  },
+  "reduction": {
+    "name": "Reduction",
+    "typical_range": {
+      "param": "n/a",
+      "low": "",
+      "high": ""
+    },
+    "explanations": [
+      "Simmering a liquid down concentrates its flavor as water evaporates.",
+      "As a liquid simmers, water evaporates but flavor compounds mostly stay behind, so the remaining liquid becomes more concentrated, flavorful, and often thicker as sugars and proteins become more densely packed.",
+      "Reduction concentrates non-volatile flavor compounds (sugars, salts, proteins, some acids) proportionally faster than volume decreases, since water — the most volatile component — leaves first. This also concentrates saltiness, which is why unsalted stock is reduced before seasoning: salting first risks an over-salted result once concentrated."
+    ]
+  },
+  "salt": {
+    "name": "Salt's Role",
+    "typical_range": {
+      "param": "salt applied ahead of cooking",
+      "low": "30 min",
+      "high": "overnight"
+    },
+    "explanations": [
+      "Salt enhances flavor and, on meat, draws out then reabsorbs moisture for better texture.",
+      "Beyond tasting 'salty,' salt suppresses bitterness and makes other flavors more perceptible. On meat, salt applied ahead of cooking draws moisture to the surface via osmosis, which then dissolves the salt and gets reabsorbed, seasoning the meat throughout.",
+      "Salt suppresses bitter taste receptors, which is why a pinch can make a dish taste less bitter without tasting noticeably salty. On meat, salting well ahead of cooking (30+ minutes) allows time for the moisture draw-and-reabsorb cycle and for salt to diffuse toward the center; salting immediately before cooking mostly seasons only the surface, since diffusion is slow relative to typical cook times."
+    ]
+  },
+  "acid": {
+    "name": "Acid's Role",
+    "typical_range": {
+      "param": "n/a",
+      "low": "",
+      "high": ""
+    },
+    "explanations": [
+      "Acid brightens flavor and cuts through richness, balancing a dish.",
+      "Acid stimulates sour taste receptors, which reads as 'brightness' and helps balance rich or fatty flavors by cutting through them. A dish that tastes flat or heavy is often missing acid, not salt.",
+      "Acid's effect is partly perceptual — sour taste contrast against fat and sweetness makes a dish taste more balanced — and partly chemical, as acid can denature proteins (as in ceviche) and slows enzymatic browning in cut fruit by lowering pH. In baking, acid also plays a functional role activating baking soda."
+    ]
+  },
+  "fat_flavor": {
+    "name": "Fat as Flavor Carrier",
+    "typical_range": {
+      "param": "n/a",
+      "low": "",
+      "high": ""
+    },
+    "explanations": [
+      "Many flavor compounds are fat-soluble, so fat helps carry and round out flavor.",
+      "A lot of what we taste as 'flavor' is actually aroma, and many aromatic compounds dissolve in fat rather than water. Fat carries these compounds across the tongue and up to the nose, and coats the mouth, softening sharp or bitter notes.",
+      "Fat-soluble flavor and aroma compounds release more slowly and evenly than water-soluble ones, part of why fattier foods taste richer or more rounded. Fat also physically coats taste receptors, muting harsh notes and smoothing mouthfeel — why low-fat versions of a dish often taste thinner even with identical seasoning."
+    ]
+  },
+  "caramelization": {
+    "name": "Caramelization vs. Maillard",
+    "typical_range": {
+      "param": "n/a",
+      "low": "",
+      "high": ""
+    },
+    "explanations": [
+      "Caramelization browns sugar alone; the Maillard reaction browns sugar and protein together.",
+      "These two browning reactions are often confused. Caramelization is the breakdown of sugar alone under heat, as in caramel or roasted vegetables' sweetness. The Maillard reaction requires both sugars and amino acids from protein, producing a wider, more savory range of flavor compounds.",
+      "Caramelization begins around 320°F/160°C for sucrose. The Maillard reaction begins lower, roughly 285°F/140°C, and requires both reducing sugars and amino acids, producing melanoidins and hundreds of distinct flavor compounds — why bread crust, seared steak, and roasted coffee all taste 'brown' in a complex, savory way plain caramelized sugar doesn't replicate."
+    ]
+  }
+}

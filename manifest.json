@@ -1,0 +1,19 @@
+{
+  "name": "Kitchen Chemistry",
+  "short_name": "Kitchen Chem",
+  "description": "A cooking app that explains the science behind every step.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#17140f",
+  "theme_color": "#17140f",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

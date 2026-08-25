@@ -1,0 +1,103 @@
+{
+  "ribeye": {
+    "label": "Ribeye",
+    "title": "Pan-Seared Ribeye",
+    "steps": [
+      {
+        "instruction": "Pat the steak fully dry with paper towels and season generously with salt.",
+        "ingredients": [
+          "1 ribeye steak",
+          "1 tsp kosher salt"
+        ],
+        "technique": "salt"
+      },
+      {
+        "instruction": "Heat 1 tbsp oil in a heavy pan over high heat until just smoking.",
+        "ingredients": [
+          "1 tbsp neutral oil"
+        ],
+        "technique": "searing"
+      },
+      {
+        "instruction": "Sear the steak undisturbed for 3–4 minutes per side, until deeply browned.",
+        "ingredients": [
+          "ribeye steak"
+        ],
+        "technique": "searing"
+      },
+      {
+        "instruction": "Remove from the pan and let it rest for 8 minutes before slicing.",
+        "ingredients": [],
+        "technique": "resting"
+      }
+    ]
+  },
+  "vinaigrette": {
+    "label": "Vinaigrette",
+    "title": "Classic Vinaigrette",
+    "steps": [
+      {
+        "instruction": "In a bowl, whisk the vinegar with a pinch of salt until dissolved.",
+        "ingredients": [
+          "2 tbsp red wine vinegar",
+          "1/4 tsp salt"
+        ],
+        "technique": "salt"
+      },
+      {
+        "instruction": "Whisk in the mustard — it will help everything bind together.",
+        "ingredients": [
+          "1 tsp dijon mustard"
+        ],
+        "technique": "emulsification"
+      },
+      {
+        "instruction": "Slowly drizzle in the olive oil while whisking constantly.",
+        "ingredients": [
+          "6 tbsp olive oil"
+        ],
+        "technique": "emulsification"
+      },
+      {
+        "instruction": "Taste — if it feels flat or heavy, it's usually missing acid, not salt.",
+        "ingredients": [],
+        "technique": "acid"
+      }
+    ]
+  },
+  "pancakes": {
+    "label": "Pancakes",
+    "title": "Buttermilk Pancakes",
+    "steps": [
+      {
+        "instruction": "Whisk the flour, baking powder, baking soda, and salt together.",
+        "ingredients": [
+          "1½ cups flour",
+          "1 tbsp baking powder",
+          "¼ tsp baking soda",
+          "½ tsp salt"
+        ],
+        "technique": "leavening"
+      },
+      {
+        "instruction": "In a separate bowl, whisk the buttermilk, egg, and melted butter.",
+        "ingredients": [
+          "1¼ cups buttermilk",
+          "1 egg",
+          "2 tbsp melted butter"
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "Pour the wet into the dry and stir just until combined — a few lumps are fine.",
+        "ingredients": [],
+        "technique": "gluten_development"
+      },
+      {
+        "instruction": "Cook on a hot, lightly oiled griddle until bubbles form on top, then flip.",
+        "ingredients": [],
+        "technique": "caramelization"
+      }
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+:root {
+    --char-black: #17140f;
+    --surface: #221d17;
+    --surface-2: #2b241c;
+    --ember: #ff7a45;
+    --ember-dim: #c8552b;
+    --steel: #6fa8b5;
+    --parchment: #ede3d3;
+    --muted: #a69c8a;
+    --border: #3a3225;
+
+    --font-display: 'Fraunces', serif;
+    --font-body: 'Work Sans', sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: #0d0b08;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 16px;
+    font-family: var(--font-body);
+  }
+
+  .phone {
+    width: 100%;
+    max-width: 400px;
+    height: 720px;
+    background: var(--char-black);
+    color: var(--parchment);
+    border-radius: 28px;
+    border: 1px solid #34291c;
+    box-shadow: 0 40px 80px -20px rgba(0,0,0,0.6);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .app-header {
+    padding: 20px 22px 14px;
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+
+  .eyebrow-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 12px;
+  }
+
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ember);
+    margin: 0;
+  }
+
+  .step-progress {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+  }
+
+  .recipe-tabs {
+    display: flex;
+    gap: 8px;
+    margin: 0 0 14px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .recipe-tabs::-webkit-scrollbar { display: none; }
+
+  .recipe-tab {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 7px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--muted);
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .recipe-tab.active {
+    border-color: var(--ember);
+    color: var(--ember);
+    background: rgba(255,122,69,0.08);
+  }
+
+  .recipe-title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+    line-height: 1.15;
+  }
+
+  /* Scrollable step feed */
+  .content {
+    flex: 1;
+    padding: 18px 22px 40px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-snap-type: y proximity;
+  }
+
+  .step-card {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 16px 0 22px;
+    border-bottom: 1px solid var(--border);
+    scroll-snap-align: start;
+    scroll-margin-top: 8px;
+    border-left: 2px solid transparent;
+    padding-left: 12px;
+    margin-left: -12px;
+    transition: border-color 0.2s ease;
+  }
+  .step-card:last-child { border-bottom: none; }
+  .step-card.in-view { border-left-color: var(--ember-dim); }
+
+  .step-num {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .step-card.in-view .step-num { color: var(--ember); }
+
+  .step-num .num-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--border);
+  }
+  .step-card.in-view .num-dot { background: var(--ember); }
+
+  .step-instruction {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  .ingredient-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .chip {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
+
+  .why-trigger {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    border: 1px solid var(--ember-dim);
+    color: var(--ember);
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 13.5px;
+    padding: 11px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.15s ease, transform 0.1s ease;
+    width: 100%;
+    text-align: left;
+  }
+
+  .why-trigger:hover { background: rgba(255,122,69,0.08); }
+  .why-trigger:active { transform: scale(0.99); }
+
+  .why-trigger .flame { font-size: 15px; }
+
+  .why-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    display: none;
+  }
+
+  .why-panel.open { display: block; }
+
+  .technique-name {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--steel);
+    margin: 0 0 14px;
+  }
+
+  .depth-gauge {
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+
+  .flame-btn {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 8px 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+    color: var(--muted);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: all 0.15s ease;
+  }
+
+  .flame-btn .icon { opacity: 0.4; transition: opacity 0.15s ease, transform 0.15s ease; }
+  .flame-btn[data-level="0"] .icon { font-size: 14px; }
+  .flame-btn[data-level="1"] .icon { font-size: 19px; }
+  .flame-btn[data-level="2"] .icon { font-size: 24px; }
+
+  .flame-btn.active {
+    border-color: var(--ember);
+    background: rgba(255,122,69,0.08);
+    color: var(--ember);
+  }
+  .flame-btn.active .icon { opacity: 1; transform: scale(1.05); }
+
+  .explanation-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--parchment);
+    margin: 0;
+  }
+
+  .explanation-text .depth-label {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 8px;
+  }
+
+  .end-marker {
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.5;
+    padding-top: 18px;
+  }
