@@ -4,7 +4,7 @@
 // moved into /js/, it could only ever control /js/, not the whole app.
 // Root is the right place for it.
 
-const CACHE_NAME = 'kitchen-chemistry-v1';
+const CACHE_NAME = 'kitchen-chemistry-v2';
 const APP_SHELL = [
   './',
   './index.html',
