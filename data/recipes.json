@@ -3,30 +3,58 @@
     "title": "Pan-Seared Ribeye",
     "category": "Mains",
     "ingredients": [
-      { "amount": 1, "unit": null, "name": "ribeye steak" },
-      { "amount": 1, "unit": "tsp", "name": "kosher salt" },
-      { "amount": 1, "unit": "tbsp", "name": "neutral oil" }
+      {
+        "amount": 1,
+        "unit": null,
+        "name": "ribeye steak"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "kosher salt"
+      },
+      {
+        "amount": 1,
+        "unit": "Tbsp",
+        "name": "neutral oil"
+      }
     ],
     "steps": [
       {
         "instruction": "Pat the steak fully dry with paper towels and season generously with salt.",
         "ingredients": [
-          { "amount": 1, "unit": null, "name": "ribeye steak" },
-          { "amount": 1, "unit": "tsp", "name": "kosher salt" }
+          {
+            "amount": 1,
+            "unit": null,
+            "name": "ribeye steak"
+          },
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "kosher salt"
+          }
         ],
         "technique": "salt"
       },
       {
         "instruction": "Heat 1 tbsp oil in a heavy pan over high heat until just smoking.",
         "ingredients": [
-          { "amount": 1, "unit": "tbsp", "name": "neutral oil" }
+          {
+            "amount": 1,
+            "unit": "Tbsp",
+            "name": "neutral oil"
+          }
         ],
         "technique": "searing"
       },
       {
-        "instruction": "Sear the steak undisturbed for 3–4 minutes per side, until deeply browned.",
+        "instruction": "Sear the steak undisturbed for 3\u20134 minutes per side, until deeply browned.",
         "ingredients": [
-          { "amount": 1, "unit": null, "name": "ribeye steak" }
+          {
+            "amount": 1,
+            "unit": null,
+            "name": "ribeye steak"
+          }
         ],
         "technique": "searing"
       },
@@ -41,36 +69,68 @@
     "title": "Classic Vinaigrette",
     "category": "Sauces & Dressings",
     "ingredients": [
-      { "amount": 2, "unit": "tbsp", "name": "red wine vinegar" },
-      { "amount": 0.25, "unit": "tsp", "name": "salt" },
-      { "amount": 1, "unit": "tsp", "name": "dijon mustard" },
-      { "amount": 6, "unit": "tbsp", "name": "olive oil" }
+      {
+        "amount": 2,
+        "unit": "Tbsp",
+        "name": "red wine vinegar"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "dijon mustard"
+      },
+      {
+        "amount": 6,
+        "unit": "Tbsp",
+        "name": "olive oil"
+      }
     ],
     "steps": [
       {
         "instruction": "In a bowl, whisk the vinegar with a pinch of salt until dissolved.",
         "ingredients": [
-          { "amount": 2, "unit": "tbsp", "name": "red wine vinegar" },
-          { "amount": 0.25, "unit": "tsp", "name": "salt" }
+          {
+            "amount": 2,
+            "unit": "Tbsp",
+            "name": "red wine vinegar"
+          },
+          {
+            "amount": 0.25,
+            "unit": "tsp",
+            "name": "salt"
+          }
         ],
         "technique": "salt"
       },
       {
-        "instruction": "Whisk in the mustard — it will help everything bind together.",
+        "instruction": "Whisk in the mustard \u2014 it will help everything bind together.",
         "ingredients": [
-          { "amount": 1, "unit": "tsp", "name": "dijon mustard" }
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "dijon mustard"
+          }
         ],
         "technique": "emulsification"
       },
       {
         "instruction": "Slowly drizzle in the olive oil while whisking constantly.",
         "ingredients": [
-          { "amount": 6, "unit": "tbsp", "name": "olive oil" }
+          {
+            "amount": 6,
+            "unit": "Tbsp",
+            "name": "olive oil"
+          }
         ],
         "technique": "emulsification"
       },
       {
-        "instruction": "Taste — if it feels flat or heavy, it's usually missing acid, not salt.",
+        "instruction": "Taste \u2014 if it feels flat or heavy, it's usually missing acid, not salt.",
         "ingredients": [],
         "technique": "acid"
       }
@@ -80,36 +140,92 @@
     "title": "Buttermilk Pancakes",
     "category": "Breakfast",
     "ingredients": [
-      { "amount": 1.5, "unit": "cup", "name": "flour" },
-      { "amount": 1, "unit": "tbsp", "name": "baking powder" },
-      { "amount": 0.25, "unit": "tsp", "name": "baking soda" },
-      { "amount": 0.5, "unit": "tsp", "name": "salt" },
-      { "amount": 1.25, "unit": "cup", "name": "buttermilk" },
-      { "amount": 1, "unit": null, "name": "egg" },
-      { "amount": 2, "unit": "tbsp", "name": "melted butter" }
+      {
+        "amount": 1.5,
+        "unit": "cup",
+        "name": "flour"
+      },
+      {
+        "amount": 1,
+        "unit": "Tbsp",
+        "name": "baking powder"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "baking soda"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": 1.25,
+        "unit": "cup",
+        "name": "buttermilk"
+      },
+      {
+        "amount": 1,
+        "unit": null,
+        "name": "egg"
+      },
+      {
+        "amount": 2,
+        "unit": "Tbsp",
+        "name": "melted butter"
+      }
     ],
     "steps": [
       {
         "instruction": "Whisk the flour, baking powder, baking soda, and salt together.",
         "ingredients": [
-          { "amount": 1.5, "unit": "cup", "name": "flour" },
-          { "amount": 1, "unit": "tbsp", "name": "baking powder" },
-          { "amount": 0.25, "unit": "tsp", "name": "baking soda" },
-          { "amount": 0.5, "unit": "tsp", "name": "salt" }
+          {
+            "amount": 1.5,
+            "unit": "cup",
+            "name": "flour"
+          },
+          {
+            "amount": 1,
+            "unit": "Tbsp",
+            "name": "baking powder"
+          },
+          {
+            "amount": 0.25,
+            "unit": "tsp",
+            "name": "baking soda"
+          },
+          {
+            "amount": 0.5,
+            "unit": "tsp",
+            "name": "salt"
+          }
         ],
         "technique": "leavening"
       },
       {
         "instruction": "In a separate bowl, whisk the buttermilk, egg, and melted butter.",
         "ingredients": [
-          { "amount": 1.25, "unit": "cup", "name": "buttermilk" },
-          { "amount": 1, "unit": null, "name": "egg" },
-          { "amount": 2, "unit": "tbsp", "name": "melted butter" }
+          {
+            "amount": 1.25,
+            "unit": "cup",
+            "name": "buttermilk"
+          },
+          {
+            "amount": 1,
+            "unit": null,
+            "name": "egg"
+          },
+          {
+            "amount": 2,
+            "unit": "Tbsp",
+            "name": "melted butter"
+          }
         ],
         "technique": null
       },
       {
-        "instruction": "Pour the wet into the dry and stir just until combined — a few lumps are fine.",
+        "instruction": "Pour the wet into the dry and stir just until combined \u2014 a few lumps are fine.",
         "ingredients": [],
         "technique": "gluten_development"
       },
@@ -117,6 +233,585 @@
         "instruction": "Cook on a hot, lightly oiled griddle until bubbles form on top, then flip.",
         "ingredients": [],
         "technique": "caramelization"
+      }
+    ]
+  },
+  "scrambled_eggs": {
+    "title": "Scrambled Eggs",
+    "category": "Breakfast",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": null,
+        "name": "large eggs"
+      },
+      {
+        "amount": 1,
+        "unit": "Tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Crack the eggs into a bowl and whisk until no streaks of white remain.",
+        "ingredients": [
+          {
+            "amount": 3,
+            "unit": null,
+            "name": "large eggs"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "Melt the butter in a nonstick pan over medium-low heat.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "Tbsp",
+            "name": "butter"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "Pour in the eggs, season with salt, and stir slowly and continuously as they cook.",
+        "ingredients": [
+          {
+            "amount": 0.25,
+            "unit": "tsp",
+            "name": "salt"
+          }
+        ],
+        "technique": "protein_denaturation"
+      },
+      {
+        "instruction": "Remove from heat while still slightly wet \u2014 carryover heat finishes the job.",
+        "ingredients": [],
+        "technique": null
+      }
+    ]
+  },
+  "roast_chicken_thighs": {
+    "title": "Roast Chicken Thighs",
+    "category": "Mains",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": null,
+        "name": "bone-in chicken thighs"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": 1,
+        "unit": "Tbsp",
+        "name": "olive oil"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Pat the chicken thighs dry and season generously with salt.",
+        "ingredients": [
+          {
+            "amount": 4,
+            "unit": null,
+            "name": "bone-in chicken thighs"
+          },
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "salt"
+          }
+        ],
+        "technique": "salt"
+      },
+      {
+        "instruction": "Rub with olive oil and place skin-side up in a roasting pan.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "Tbsp",
+            "name": "olive oil"
+          }
+        ],
+        "technique": "fat_flavor"
+      },
+      {
+        "instruction": "Roast at 425\u00b0F (220\u00b0C) until the skin is deeply browned and the internal temperature reaches 165\u00b0F (74\u00b0C).",
+        "ingredients": [],
+        "technique": "searing"
+      },
+      {
+        "instruction": "Let rest for 5 minutes before serving.",
+        "ingredients": [],
+        "technique": "resting"
+      }
+    ]
+  },
+  "braised_short_ribs": {
+    "title": "Braised Short Ribs",
+    "category": "Mains",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "lbs",
+        "name": "short ribs"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": 1,
+        "unit": "Tbsp",
+        "name": "neutral oil"
+      },
+      {
+        "amount": 3,
+        "unit": "cup",
+        "name": "beef broth"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Season the short ribs generously with salt.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": "lbs",
+            "name": "short ribs"
+          },
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "salt"
+          }
+        ],
+        "technique": "salt"
+      },
+      {
+        "instruction": "Sear the ribs in oil over high heat until deeply browned on all sides.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "Tbsp",
+            "name": "neutral oil"
+          }
+        ],
+        "technique": "searing"
+      },
+      {
+        "instruction": "Add the broth, cover, and simmer very gently for 3 hours until the meat is fork-tender.",
+        "ingredients": [
+          {
+            "amount": 3,
+            "unit": "cup",
+            "name": "beef broth"
+          }
+        ],
+        "technique": "braising"
+      },
+      {
+        "instruction": "Remove the ribs, then simmer the liquid uncovered until thickened into a sauce.",
+        "ingredients": [],
+        "technique": "reduction"
+      }
+    ]
+  },
+  "seared_salmon": {
+    "title": "Pan-Seared Salmon",
+    "category": "Mains",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": null,
+        "name": "salmon fillets"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": 1,
+        "unit": "Tbsp",
+        "name": "neutral oil"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Pat the salmon fillets dry and season with salt.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": null,
+            "name": "salmon fillets"
+          },
+          {
+            "amount": 0.5,
+            "unit": "tsp",
+            "name": "salt"
+          }
+        ],
+        "technique": "salt"
+      },
+      {
+        "instruction": "Heat oil in a pan over medium-high heat until shimmering.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "Tbsp",
+            "name": "neutral oil"
+          }
+        ],
+        "technique": "searing"
+      },
+      {
+        "instruction": "Place the salmon skin-side down and cook undisturbed until the skin is crisp, about 5 minutes.",
+        "ingredients": [],
+        "technique": "searing"
+      },
+      {
+        "instruction": "Flip and cook just until the center turns from translucent to opaque, 1\u20132 minutes.",
+        "ingredients": [],
+        "technique": "protein_denaturation"
+      }
+    ]
+  },
+  "pan_gravy": {
+    "title": "Simple Pan Gravy",
+    "category": "Sauces & Dressings",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "Tbsp",
+        "name": "pan drippings"
+      },
+      {
+        "amount": 2,
+        "unit": "Tbsp",
+        "name": "flour"
+      },
+      {
+        "amount": 2,
+        "unit": "cup",
+        "name": "broth"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Whisk the flour into the warm pan drippings and cook for 1\u20132 minutes.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": "Tbsp",
+            "name": "pan drippings"
+          },
+          {
+            "amount": 2,
+            "unit": "Tbsp",
+            "name": "flour"
+          }
+        ],
+        "technique": "roux"
+      },
+      {
+        "instruction": "Pour in the broth while whisking, scraping up any browned bits from the pan.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": "cup",
+            "name": "broth"
+          }
+        ],
+        "technique": "deglazing"
+      },
+      {
+        "instruction": "Simmer until thickened, then season with salt to taste.",
+        "ingredients": [
+          {
+            "amount": 0.5,
+            "unit": "tsp",
+            "name": "salt"
+          }
+        ],
+        "technique": "salt"
+      }
+    ]
+  },
+  "sugar_cookies": {
+    "title": "Classic Sugar Cookies",
+    "category": "Desserts",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "cup",
+        "name": "butter, softened"
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "name": "sugar"
+      },
+      {
+        "amount": 1,
+        "unit": null,
+        "name": "egg"
+      },
+      {
+        "amount": 2.5,
+        "unit": "cup",
+        "name": "flour"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "baking powder"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Cream the butter and sugar together until light and fluffy.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "cup",
+            "name": "butter, softened"
+          },
+          {
+            "amount": 1,
+            "unit": "cup",
+            "name": "sugar"
+          }
+        ],
+        "technique": "creaming"
+      },
+      {
+        "instruction": "Beat in the egg until fully combined.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": null,
+            "name": "egg"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "Whisk the flour, baking powder, and salt together, then stir into the wet ingredients just until combined.",
+        "ingredients": [
+          {
+            "amount": 2.5,
+            "unit": "cup",
+            "name": "flour"
+          },
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "baking powder"
+          },
+          {
+            "amount": 0.5,
+            "unit": "tsp",
+            "name": "salt"
+          }
+        ],
+        "technique": "gluten_development"
+      },
+      {
+        "instruction": "Bake at 350\u00b0F (175\u00b0C) until the edges turn golden brown.",
+        "ingredients": [],
+        "technique": "caramelization"
+      }
+    ]
+  },
+  "meringue_cookies": {
+    "title": "Meringue Cookies",
+    "category": "Desserts",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": null,
+        "name": "egg whites"
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "name": "sugar"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Whip the egg whites with salt until foamy.",
+        "ingredients": [
+          {
+            "amount": 3,
+            "unit": null,
+            "name": "egg whites"
+          },
+          {
+            "amount": 0.25,
+            "unit": "tsp",
+            "name": "salt"
+          }
+        ],
+        "technique": "egg_foams"
+      },
+      {
+        "instruction": "Gradually add the sugar while continuing to whip until stiff, glossy peaks form.",
+        "ingredients": [
+          {
+            "amount": 0.75,
+            "unit": "cup",
+            "name": "sugar"
+          }
+        ],
+        "technique": "egg_foams"
+      },
+      {
+        "instruction": "Pipe or spoon onto a baking sheet and bake low and slow at 200\u00b0F (95\u00b0C) until dry and crisp.",
+        "ingredients": [],
+        "technique": null
+      }
+    ]
+  },
+  "blanched_green_beans": {
+    "title": "Blanched Green Beans",
+    "category": "Sides",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "lbs",
+        "name": "green beans"
+      },
+      {
+        "amount": 1,
+        "unit": "Tbsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Bring a large pot of well-salted water to a rolling boil.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "Tbsp",
+            "name": "salt"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "Add the green beans and cook until bright green and just tender, 2\u20133 minutes.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "lbs",
+            "name": "green beans"
+          }
+        ],
+        "technique": "blanching"
+      },
+      {
+        "instruction": "Immediately transfer to a bowl of ice water to stop the cooking.",
+        "ingredients": [],
+        "technique": "blanching"
+      }
+    ]
+  },
+  "brined_pork_chops": {
+    "title": "Quick-Brined Pork Chops",
+    "category": "Mains",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": null,
+        "name": "pork chops"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "name": "salt"
+      },
+      {
+        "amount": 4,
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": 1,
+        "unit": "Tbsp",
+        "name": "neutral oil"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Dissolve the salt in water to make a brine, then submerge the pork chops for 30 minutes.",
+        "ingredients": [
+          {
+            "amount": 0.25,
+            "unit": "cup",
+            "name": "salt"
+          },
+          {
+            "amount": 4,
+            "unit": "cup",
+            "name": "water"
+          },
+          {
+            "amount": 2,
+            "unit": null,
+            "name": "pork chops"
+          }
+        ],
+        "technique": "brining"
+      },
+      {
+        "instruction": "Remove the chops from the brine and pat completely dry.",
+        "ingredients": [],
+        "technique": null
+      },
+      {
+        "instruction": "Sear in oil over medium-high heat until browned and cooked through.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "Tbsp",
+            "name": "neutral oil"
+          }
+        ],
+        "technique": "searing"
+      },
+      {
+        "instruction": "Let rest for 5 minutes before serving.",
+        "ingredients": [],
+        "technique": "resting"
       }
     ]
   }
