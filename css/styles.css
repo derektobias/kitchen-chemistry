@@ -442,6 +442,7 @@
   /* ---- Recipe Checker ---- */
 
   .checker-row {
+    position: relative;
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 10px;
@@ -450,13 +451,11 @@
   }
 
   .checker-row-header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    padding-right: 40px; /* reserves room so the select never runs under the corner X below, regardless of how long the technique name is */
   }
 
   .checker-select {
-    flex: 1;
+    width: 100%;
     background: var(--surface-2);
     border: 1px solid var(--border);
     color: var(--parchment);
@@ -468,16 +467,19 @@
   }
 
   .checker-remove-btn {
-    background: none;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: var(--surface);
     border: 1px solid var(--border);
     color: var(--muted);
-    width: 30px;
-    height: 30px;
+    width: 26px;
+    height: 26px;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 1;
     cursor: pointer;
-    margin-bottom: 8px;
-    flex-shrink: 0;
+    z-index: 2;
   }
   .checker-remove-btn:hover { color: var(--ember); border-color: var(--ember-dim); }
 
