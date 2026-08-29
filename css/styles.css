@@ -3,6 +3,7 @@
     --surface: #1e1e1e;
     --surface-2: #262626;
     --ember: #ff7a45;
+    --ember-rgb: 255, 122, 69; /* same color as --ember, as R,G,B — lets tinted/translucent backgrounds (rgba(var(--ember-rgb), 0.08)) stay theme-aware instead of being hardcoded to this exact orange */
     --ember-dim: #c8552b;
     --steel: #6fa8b5;
     --parchment: #f2f0ec;
@@ -20,6 +21,38 @@
        reads as natural and humanist rather than mono's coder/robotic feel. */
     --font-mono: 'IBM Plex Sans', sans-serif;
   }
+
+  /* ---- THEME: Colorful & Warm ---- */
+  /* A light, vibrant palette — the classic theme is "cast iron pan at
+     night"; this one is "farmers market at noon." Same variable names
+     throughout the app, just different values, applied via
+     [data-theme="warm"] on <html>.
+
+     A genuine design constraint, not just a hue swap: text needs to be
+     DARK to read on a light background, but the classic theme's --ember
+     was tuned bright specifically so it'd read well as both small text
+     AND button backgrounds against a DARK background — that dual role
+     doesn't automatically carry over to a light background. Solved here
+     by picking an --ember dark/saturated enough to work as text, and
+     reusing --char-black (each theme's own background color) as the
+     on-button text color, which happens to stay correct in both
+     directions: near-black text sits right on a bright orange button in
+     the dark theme, and light cream text sits right on a deeper coral
+     button here — see the button-text rule using var(--char-black)
+     rather than a hardcoded color. */
+  [data-theme="warm"] {
+    --char-black: #fcf3e7;
+    --surface: #f7e6d0;
+    --surface-2: #f0d9bb;
+    --ember: #b5304e;
+    --ember-rgb: 181, 48, 78;
+    --ember-dim: #d97a94;
+    --steel: #936014;
+    --parchment: #3a2e28;
+    --muted: #7c6449;
+    --border: #e8d4bc;
+  }
+
 
   * { box-sizing: border-box; }
 
@@ -115,7 +148,7 @@
   .toggle-btn.active {
     border-color: var(--ember);
     color: var(--ember);
-    background: rgba(255,122,69,0.08);
+    background: rgba(var(--ember-rgb), 0.08);
   }
 
   .back-btn {
@@ -132,7 +165,8 @@
 
   .utility-links {
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 10px 20px;
     margin-bottom: 16px;
   }
 
@@ -229,7 +263,7 @@
     text-align: left;
   }
 
-  .why-trigger:hover { background: rgba(255,122,69,0.08); }
+  .why-trigger:hover { background: rgba(var(--ember-rgb), 0.08); }
   .why-trigger:active { transform: scale(0.99); }
 
   .why-trigger .flame { font-size: 15px; }
@@ -286,7 +320,7 @@
 
   .flame-btn.active {
     border-color: var(--ember);
-    background: rgba(255,122,69,0.08);
+    background: rgba(var(--ember-rgb), 0.08);
     color: var(--ember);
   }
   .flame-btn.active .icon { opacity: 1; transform: scale(1.05); }
@@ -328,7 +362,7 @@
     gap: 3px;
     width: 100%;
     text-align: left;
-    background: rgba(255,122,69,0.08);
+    background: rgba(var(--ember-rgb), 0.08);
     border: 1px solid var(--ember-dim);
     border-radius: 12px;
     padding: 12px 16px;
@@ -464,6 +498,9 @@
     padding: 9px 12px;
     border-radius: 8px;
     margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .checker-remove-btn {
@@ -590,7 +627,7 @@
     width: 100%;
     background: var(--ember);
     border: none;
-    color: #17140f;
+    color: var(--char-black);
     font-family: var(--font-body);
     font-weight: 600;
     font-size: 13.5px;
@@ -599,7 +636,7 @@
     cursor: pointer;
     margin-top: 4px;
   }
-  .checker-check-btn:hover { background: #ff8a5c; }
+  .checker-check-btn:hover { filter: brightness(1.08); }
 
   .checker-add-btn {
     width: 100%;
@@ -614,4 +651,62 @@
     cursor: pointer;
     margin-bottom: 10px;
   }
-  .checker-add-btn:hover { background: rgba(255,122,69,0.08); }
+  .checker-add-btn:hover { background: rgba(var(--ember-rgb), 0.08); }
+
+  /* ---- Settings: theme picker ---- */
+
+  .theme-option {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    text-align: left;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px;
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
+  .theme-option.active {
+    border-color: var(--ember);
+    background: rgba(var(--ember-rgb), 0.06);
+  }
+
+  .theme-swatch-row {
+    display: flex;
+    flex-shrink: 0;
+  }
+
+  .theme-swatch {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--char-black);
+    margin-left: -8px;
+  }
+  .theme-swatch:first-child { margin-left: 0; }
+
+  .theme-option-text { flex: 1; }
+
+  .theme-option-name {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 14.5px;
+    color: var(--parchment);
+    margin: 0 0 3px;
+  }
+
+  .theme-option-desc {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    color: var(--muted);
+    margin: 0;
+  }
+
+  .theme-option-check {
+    flex-shrink: 0;
+    color: var(--ember);
+    font-size: 18px;
+    font-weight: 700;
+  }

@@ -19,13 +19,22 @@ async function loadData() {
 // show up in the data.
 const CATEGORY_ORDER = ['Breakfast', 'Mains', 'Sides', 'Sauces & Dressings', 'Desserts'];
 
+// Theme metadata — swatches are just for the settings picker preview, the
+// actual colors live in css/styles.css under [data-theme="..."]. Adding a
+// theme means: add its variable block in CSS, then add one entry here.
+const THEMES = {
+  classic: { name: 'Classic', description: 'Cast iron pan at night — dark, moody, ember accents.', swatches: ['#121212', '#ff7a45', '#6fa8b5'] },
+  warm: { name: 'Warm', description: 'Farmers market at noon — light, vibrant, coral and gold.', swatches: ['#fcf3e7', '#b5304e', '#936014'] }
+};
+
 // ---- STATE ----
 let appState = {
-  view: 'browse',        // 'browse' | 'cook'
+  view: 'browse',        // 'browse' | 'cook' | 'glossary' | 'checker' | 'settings'
   browseMode: 'category', // 'category' | 'technique'
   searchQuery: ''
 };
 let currentRecipeId = null;
+let currentTheme = 'classic';
 let depthLevel = 1;          // default: Standard, global across all steps
 let panelOpenState = [];     // per-step booleans in cook view, reset per recipe
 let ingredientDropdownOpen = {}; // recipeId -> bool, for browse-screen dropdowns
@@ -36,6 +45,11 @@ let checkerRows = [{ id: 1, techniqueId: '', values: {}, result: null }];
 let checkerNextId = 2;
 let savedProgress = null;    // { recipeId, stepIndex } | null — for resume banner
 let lastSavedStepIndex = -1; // avoids writing to storage on every scroll tick
+
+function applyTheme(themeId) {
+  currentTheme = THEMES[themeId] ? themeId : 'classic';
+  document.documentElement.setAttribute('data-theme', currentTheme);
+}
 
 // Fixed pixel distance from the top of the visible step-feed area at which
 // a step counts as "current." Deliberately a small, near-the-top number —
@@ -89,6 +103,8 @@ function renderHeader() {
     header.appendChild(buildGlossaryHeader());
   } else if (appState.view === 'checker') {
     header.appendChild(buildCheckerHeader());
+  } else if (appState.view === 'settings') {
+    header.appendChild(buildSettingsHeader());
   } else {
     header.appendChild(buildBrowseHeader());
   }
@@ -115,6 +131,8 @@ function renderContent() {
     content.appendChild(buildGlossaryContent());
   } else if (appState.view === 'checker') {
     content.appendChild(buildCheckerContent());
+  } else if (appState.view === 'settings') {
+    content.appendChild(buildSettingsContent());
   } else {
     content.appendChild(buildBrowseContent());
   }
@@ -168,6 +186,15 @@ function buildBrowseHeader() {
     render();
   });
   utilityLinks.appendChild(checkerBtn);
+
+  const settingsBtn = document.createElement('button');
+  settingsBtn.className = 'back-btn';
+  settingsBtn.innerHTML = '&#9881; Settings';
+  settingsBtn.addEventListener('click', () => {
+    appState.view = 'settings';
+    render();
+  });
+  utilityLinks.appendChild(settingsBtn);
 
   wrap.appendChild(utilityLinks);
 
@@ -852,6 +879,144 @@ function buildCheckerResultCard(result) {
 }
 
 // ==================================================================
+// SETTINGS VIEW
+// ==================================================================
+
+function buildSettingsHeader() {
+  const wrap = document.createElement('div');
+
+  const eyebrowRow = document.createElement('div');
+  eyebrowRow.className = 'eyebrow-row';
+
+  const backBtn = document.createElement('button');
+  backBtn.className = 'back-btn';
+  backBtn.innerHTML = '&larr; Browse';
+  backBtn.addEventListener('click', () => {
+    appState.view = 'browse';
+    render();
+  });
+  eyebrowRow.appendChild(backBtn);
+  wrap.appendChild(eyebrowRow);
+
+  const title = document.createElement('h1');
+  title.className = 'recipe-title';
+  title.textContent = 'Settings';
+  wrap.appendChild(title);
+
+  return wrap;
+}
+
+function buildSettingsContent() {
+  const wrap = document.createElement('div');
+
+  // ---- Explanation depth ----
+  const depthHeading = document.createElement('p');
+  depthHeading.className = 'section-heading';
+  depthHeading.textContent = 'Default Explanation Depth';
+  depthHeading.style.marginTop = '0';
+  wrap.appendChild(depthHeading);
+
+  const depthDesc = document.createElement('p');
+  depthDesc.className = 'explanation-text';
+  depthDesc.style.marginBottom = '10px';
+  depthDesc.textContent = 'How much science shows by default when you open a "why" panel anywhere in the app.';
+  wrap.appendChild(depthDesc);
+
+  const gauge = document.createElement('div');
+  gauge.className = 'depth-gauge';
+  const sizes = [14, 19, 24];
+  const labels = ['Quick', 'Standard', 'Deep'];
+  labels.forEach((label, lvl) => {
+    const btn = document.createElement('button');
+    btn.className = 'flame-btn' + (lvl === depthLevel ? ' active' : '');
+    btn.innerHTML = `<span class="icon" style="font-size:${sizes[lvl]}px">&#128293;</span><span>${label}</span>`;
+    btn.addEventListener('click', () => {
+      depthLevel = lvl;
+      saveDepthPreference(lvl);
+      renderContent();
+    });
+    gauge.appendChild(btn);
+  });
+  wrap.appendChild(gauge);
+
+  // ---- Theme ----
+  const themeHeading = document.createElement('p');
+  themeHeading.className = 'section-heading';
+  themeHeading.textContent = 'Theme';
+  wrap.appendChild(themeHeading);
+
+  Object.entries(THEMES).forEach(([themeId, theme]) => {
+    wrap.appendChild(buildThemeOption(themeId, theme));
+  });
+
+  // ---- Data ----
+  const dataHeading = document.createElement('p');
+  dataHeading.className = 'section-heading';
+  dataHeading.textContent = 'Data';
+  wrap.appendChild(dataHeading);
+
+  const clearBtn = document.createElement('button');
+  clearBtn.className = 'checker-add-btn'; // reusing the outlined-button style
+  clearBtn.textContent = savedProgress ? 'Clear Saved Progress' : 'No Saved Progress to Clear';
+  clearBtn.disabled = !savedProgress;
+  if (!savedProgress) clearBtn.style.opacity = '0.5';
+  clearBtn.addEventListener('click', async () => {
+    await clearProgress();
+    savedProgress = null;
+    clearBtn.textContent = 'No Saved Progress to Clear';
+    clearBtn.disabled = true;
+    clearBtn.style.opacity = '0.5';
+  });
+  wrap.appendChild(clearBtn);
+
+  return wrap;
+}
+
+function buildThemeOption(themeId, theme) {
+  const isActive = currentTheme === themeId;
+
+  const option = document.createElement('button');
+  option.className = 'theme-option' + (isActive ? ' active' : '');
+  option.addEventListener('click', () => {
+    if (isActive) return;
+    applyTheme(themeId);
+    saveThemePreference(themeId);
+    renderContent(); // re-render so the "active" checkmark/border updates
+  });
+
+  const swatchRow = document.createElement('div');
+  swatchRow.className = 'theme-swatch-row';
+  theme.swatches.forEach(color => {
+    const dot = document.createElement('span');
+    dot.className = 'theme-swatch';
+    dot.style.background = color;
+    swatchRow.appendChild(dot);
+  });
+  option.appendChild(swatchRow);
+
+  const textCol = document.createElement('div');
+  textCol.className = 'theme-option-text';
+  const name = document.createElement('p');
+  name.className = 'theme-option-name';
+  name.textContent = theme.name;
+  textCol.appendChild(name);
+  const desc = document.createElement('p');
+  desc.className = 'theme-option-desc';
+  desc.textContent = theme.description;
+  textCol.appendChild(desc);
+  option.appendChild(textCol);
+
+  if (isActive) {
+    const check = document.createElement('span');
+    check.className = 'theme-option-check';
+    check.innerHTML = '&#10003;';
+    option.appendChild(check);
+  }
+
+  return option;
+}
+
+// ==================================================================
 // COOK VIEW (existing step-feed behavior)
 // ==================================================================
 
@@ -1073,6 +1238,12 @@ if ('serviceWorker' in navigator && !isLocalDev) {
 
 // ---- INIT ----
 async function init() {
+  // Apply the theme first, before any data loading — avoids a flash of the
+  // wrong theme on load, since this only touches a DOM attribute and CSS,
+  // not the fetched recipe/technique data.
+  const savedTheme = await loadThemePreference();
+  applyTheme(savedTheme);
+
   try {
     await loadData();
   } catch (err) {

@@ -87,3 +87,13 @@ async function saveProgress(recipeId, stepIndex) {
 async function clearProgress() {
   await deleteStoredValue('last-progress');
 }
+
+// ---- Theme preference ----
+async function loadThemePreference() {
+  const stored = await getStoredValue('selected-theme');
+  return stored || 'classic';
+}
+
+async function saveThemePreference(themeId) {
+  await setStoredValue('selected-theme', themeId);
+}
