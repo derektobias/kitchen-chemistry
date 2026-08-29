@@ -91,7 +91,7 @@ async function clearProgress() {
 // ---- Theme preference ----
 async function loadThemePreference() {
   const stored = await getStoredValue('selected-theme');
-  return stored || 'classic';
+  return stored || 'cream';
 }
 
 async function saveThemePreference(themeId) {

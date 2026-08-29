@@ -23,8 +23,12 @@ const CATEGORY_ORDER = ['Breakfast', 'Mains', 'Sides', 'Sauces & Dressings', 'De
 // actual colors live in css/styles.css under [data-theme="..."]. Adding a
 // theme means: add its variable block in CSS, then add one entry here.
 const THEMES = {
-  classic: { name: 'Classic', description: 'Cast iron pan at night — dark, moody, ember accents.', swatches: ['#121212', '#ff7a45', '#6fa8b5'] },
-  warm: { name: 'Warm', description: 'Farmers market at noon — light, vibrant, coral and gold.', swatches: ['#fcf3e7', '#b5304e', '#936014'] }
+  autumn: { name: 'Autumn', description: 'Deep charcoal with burnt orange and amber — an autumn palette.', swatches: ['#121212', '#ff7a45', '#6fa8b5'] },
+  cream: { name: 'Cream', description: 'Light, warm, coral and gold on a soft cream background.', swatches: ['#fcf3e7', '#b5304e', '#936014'] },
+  spring: { name: 'Spring', description: 'Pink and green, with blue and purple in the details, on soft white.', swatches: ['#faf9fc', '#b5306b', '#347240'] },
+  midnight: { name: 'Midnight', description: 'Deep navy with warm copper and steel-blue accents, like a clear midnight sky.', swatches: ['#10151f', '#c17f45', '#6e93b0'] },
+  forge: { name: 'Forge', description: 'Charcoal and gray with a hot-ember red — a black/charcoal frame around the whole thing.', swatches: ['#151515', '#e85a4f', '#9aa0a6'] },
+  blush: { name: 'Blush', description: 'A light pink frame around a clean white canvas, with rose and sky-blue accents.', swatches: ['#ffffff', '#a52f57', '#1274b8'] }
 };
 
 // ---- STATE ----
@@ -34,7 +38,7 @@ let appState = {
   searchQuery: ''
 };
 let currentRecipeId = null;
-let currentTheme = 'classic';
+let currentTheme = 'cream';
 let depthLevel = 1;          // default: Standard, global across all steps
 let panelOpenState = [];     // per-step booleans in cook view, reset per recipe
 let ingredientDropdownOpen = {}; // recipeId -> bool, for browse-screen dropdowns
@@ -47,7 +51,7 @@ let savedProgress = null;    // { recipeId, stepIndex } | null — for resume ba
 let lastSavedStepIndex = -1; // avoids writing to storage on every scroll tick
 
 function applyTheme(themeId) {
-  currentTheme = THEMES[themeId] ? themeId : 'classic';
+  currentTheme = THEMES[themeId] ? themeId : 'cream';
   document.documentElement.setAttribute('data-theme', currentTheme);
 }
 
@@ -933,7 +937,7 @@ function buildSettingsContent() {
     btn.addEventListener('click', () => {
       depthLevel = lvl;
       saveDepthPreference(lvl);
-      renderContent();
+      renderContentPreservingScroll();
     });
     gauge.appendChild(btn);
   });
@@ -981,7 +985,7 @@ function buildThemeOption(themeId, theme) {
     if (isActive) return;
     applyTheme(themeId);
     saveThemePreference(themeId);
-    renderContent(); // re-render so the "active" checkmark/border updates
+    renderContentPreservingScroll(); // re-render so the "active" checkmark/border updates, without jumping to the top
   });
 
   const swatchRow = document.createElement('div');

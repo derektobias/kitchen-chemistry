@@ -6,7 +6,7 @@
       {
         "amount": 1,
         "unit": null,
-        "name": "ribeye steak"
+        "name": "1-inch thick ribeye steak"
       },
       {
         "amount": 1,
@@ -16,17 +16,17 @@
       {
         "amount": 1,
         "unit": "Tbsp",
-        "name": "neutral oil"
+        "name": "canola or vegetable oil"
       }
     ],
     "steps": [
       {
-        "instruction": "Pat the steak fully dry with paper towels and season generously with salt.",
+        "instruction": "Pat the steak completely dry with paper towels \u2014 any surface moisture will steam instead of sear. Season generously with salt on both sides, pressing it in lightly so it sticks.",
         "ingredients": [
           {
             "amount": 1,
             "unit": null,
-            "name": "ribeye steak"
+            "name": "1-inch thick ribeye steak"
           },
           {
             "amount": 1,
@@ -37,29 +37,29 @@
         "technique": "salt"
       },
       {
-        "instruction": "Heat 1 tbsp oil in a heavy pan over high heat until just smoking.",
+        "instruction": "Heat the oil in a heavy pan over high heat until it shimmers and just starts to smoke. Cast iron or stainless works best here; nonstick won't get hot enough to build a real crust.",
         "ingredients": [
           {
             "amount": 1,
             "unit": "Tbsp",
-            "name": "neutral oil"
+            "name": "canola or vegetable oil"
           }
         ],
         "technique": "searing"
       },
       {
-        "instruction": "Sear the steak undisturbed for 3\u20134 minutes per side, until deeply browned.",
+        "instruction": "Lay the steak into the pan away from you so hot oil doesn't splash toward you, then leave it alone. You'll hear a strong, steady sizzle. Resist the urge to move it \u2014 it's ready to flip once it releases easily from the pan on its own, usually 3\u20134 minutes.",
         "ingredients": [
           {
             "amount": 1,
             "unit": null,
-            "name": "ribeye steak"
+            "name": "1-inch thick ribeye steak"
           }
         ],
         "technique": "searing"
       },
       {
-        "instruction": "Remove from the pan and let it rest for 8 minutes before slicing.",
+        "instruction": "Move the steak to a cutting board and let it rest for 8 minutes before slicing. Tenting it loosely with foil keeps it warm without trapping steam and softening the crust.",
         "ingredients": [],
         "technique": "resting"
       }
@@ -77,7 +77,7 @@
       {
         "amount": 0.25,
         "unit": "tsp",
-        "name": "salt"
+        "name": "fine sea salt"
       },
       {
         "amount": 1,
@@ -87,12 +87,12 @@
       {
         "amount": 6,
         "unit": "Tbsp",
-        "name": "olive oil"
+        "name": "extra virgin olive oil"
       }
     ],
     "steps": [
       {
-        "instruction": "In a bowl, whisk the vinegar with a pinch of salt until dissolved.",
+        "instruction": "In a bowl, whisk the vinegar with the salt until it fully dissolves \u2014 you shouldn't feel any grittiness when you rub a drop between your fingers.",
         "ingredients": [
           {
             "amount": 2,
@@ -102,13 +102,13 @@
           {
             "amount": 0.25,
             "unit": "tsp",
-            "name": "salt"
+            "name": "fine sea salt"
           }
         ],
         "technique": "salt"
       },
       {
-        "instruction": "Whisk in the mustard \u2014 it will help everything bind together.",
+        "instruction": "Whisk in the mustard until smooth. It's doing real work here, not just adding flavor \u2014 it's what lets the oil and vinegar bind into a stable dressing instead of separating.",
         "ingredients": [
           {
             "amount": 1,
@@ -119,18 +119,18 @@
         "technique": "emulsification"
       },
       {
-        "instruction": "Slowly drizzle in the olive oil while whisking constantly.",
+        "instruction": "With one hand whisking constantly, add the olive oil in a slow, thin stream \u2014 a few drops at a time at first, then a thin thread. Adding it too fast is the most common way a vinaigrette breaks.",
         "ingredients": [
           {
             "amount": 6,
             "unit": "Tbsp",
-            "name": "olive oil"
+            "name": "extra virgin olive oil"
           }
         ],
         "technique": "emulsification"
       },
       {
-        "instruction": "Taste \u2014 if it feels flat or heavy, it's usually missing acid, not salt.",
+        "instruction": "Taste it on a piece of lettuce, not off the spoon \u2014 dressing tastes stronger straight off a spoon than it does on food. If it tastes flat or heavy rather than seasoned, it's almost always missing acid, not salt.",
         "ingredients": [],
         "technique": "acid"
       }
@@ -143,7 +143,7 @@
       {
         "amount": 1.5,
         "unit": "cup",
-        "name": "flour"
+        "name": "all-purpose flour"
       },
       {
         "amount": 1,
@@ -158,7 +158,7 @@
       {
         "amount": 0.5,
         "unit": "tsp",
-        "name": "salt"
+        "name": "fine sea salt"
       },
       {
         "amount": 1.25,
@@ -168,22 +168,22 @@
       {
         "amount": 1,
         "unit": null,
-        "name": "egg"
+        "name": "large egg"
       },
       {
         "amount": 2,
         "unit": "Tbsp",
-        "name": "melted butter"
+        "name": "unsalted butter, melted"
       }
     ],
     "steps": [
       {
-        "instruction": "Whisk the flour, baking powder, baking soda, and salt together.",
+        "instruction": "In a large bowl, whisk the flour, baking powder, baking soda, and salt together until evenly combined \u2014 this spreads the leavening through the flour so you don't get a bitter pocket in one bite.",
         "ingredients": [
           {
             "amount": 1.5,
             "unit": "cup",
-            "name": "flour"
+            "name": "all-purpose flour"
           },
           {
             "amount": 1,
@@ -198,13 +198,13 @@
           {
             "amount": 0.5,
             "unit": "tsp",
-            "name": "salt"
+            "name": "fine sea salt"
           }
         ],
         "technique": "leavening"
       },
       {
-        "instruction": "In a separate bowl, whisk the buttermilk, egg, and melted butter.",
+        "instruction": "In a separate bowl, whisk the buttermilk and egg together, then drizzle in the melted butter while whisking so it doesn't seize into small clumps against the cold buttermilk.",
         "ingredients": [
           {
             "amount": 1.25,
@@ -214,23 +214,23 @@
           {
             "amount": 1,
             "unit": null,
-            "name": "egg"
+            "name": "large egg"
           },
           {
             "amount": 2,
             "unit": "Tbsp",
-            "name": "melted butter"
+            "name": "unsalted butter, melted"
           }
         ],
         "technique": null
       },
       {
-        "instruction": "Pour the wet into the dry and stir just until combined \u2014 a few lumps are fine.",
+        "instruction": "Pour the wet ingredients into the dry and stir with a spatula just until no dry flour remains \u2014 a few small lumps are completely fine and expected. Stirring further develops gluten and makes the pancakes tough instead of tender.",
         "ingredients": [],
         "technique": "gluten_development"
       },
       {
-        "instruction": "Cook on a hot, lightly oiled griddle until bubbles form on top, then flip.",
+        "instruction": "Heat a griddle or nonstick pan over medium heat with a thin layer of oil or butter. Pour the batter and cook until bubbles form across the surface and the edges look set and matte, about 2\u20133 minutes, then flip and cook another 1\u20132 minutes until golden.",
         "ingredients": [],
         "technique": "caramelization"
       }
@@ -248,17 +248,17 @@
       {
         "amount": 1,
         "unit": "Tbsp",
-        "name": "butter"
+        "name": "unsalted butter"
       },
       {
         "amount": 0.25,
         "unit": "tsp",
-        "name": "salt"
+        "name": "kosher salt"
       }
     ],
     "steps": [
       {
-        "instruction": "Crack the eggs into a bowl and whisk until no streaks of white remain.",
+        "instruction": "Crack the eggs into a bowl and whisk vigorously until completely uniform in color, with no streaks of white or yolk left \u2014 this also beats in a little air, which makes for fluffier eggs.",
         "ingredients": [
           {
             "amount": 3,
@@ -269,36 +269,36 @@
         "technique": null
       },
       {
-        "instruction": "Melt the butter in a nonstick pan over medium-low heat.",
+        "instruction": "Melt the butter in a nonstick pan over medium-low heat, swirling to coat the surface. Keeping the heat gentle here is the single biggest factor in tender eggs.",
         "ingredients": [
           {
             "amount": 1,
             "unit": "Tbsp",
-            "name": "butter"
+            "name": "unsalted butter"
           }
         ],
         "technique": null
       },
       {
-        "instruction": "Pour in the eggs, season with salt, and stir slowly and continuously as they cook.",
+        "instruction": "Pour in the eggs and season with salt. Using a spatula, push the eggs slowly and continuously from the edges toward the center, forming soft curds rather than letting them sit still and set into a solid sheet.",
         "ingredients": [
           {
             "amount": 0.25,
             "unit": "tsp",
-            "name": "salt"
+            "name": "kosher salt"
           }
         ],
         "technique": "protein_denaturation"
       },
       {
-        "instruction": "Remove from heat while still slightly wet \u2014 carryover heat finishes the job.",
+        "instruction": "Remove the pan from the heat while the eggs still look slightly wet and glossy \u2014 they'll keep cooking from residual heat as you plate them, so pulling them a touch early is what keeps them soft instead of rubbery.",
         "ingredients": [],
         "technique": null
       }
     ]
   },
   "roast_chicken_thighs": {
-    "title": "Roast Chicken Thighs",
+    "title": "Roasted Chicken Thighs",
     "category": "Mains",
     "ingredients": [
       {
@@ -309,7 +309,7 @@
       {
         "amount": 1,
         "unit": "tsp",
-        "name": "salt"
+        "name": "kosher salt"
       },
       {
         "amount": 1,
@@ -319,7 +319,7 @@
     ],
     "steps": [
       {
-        "instruction": "Pat the chicken thighs dry and season generously with salt.",
+        "instruction": "Pat the chicken thighs completely dry with paper towels, paying extra attention to the skin \u2014 leftover surface moisture is the main thing that keeps skin from crisping. Season generously with salt on both sides.",
         "ingredients": [
           {
             "amount": 4,
@@ -329,13 +329,13 @@
           {
             "amount": 1,
             "unit": "tsp",
-            "name": "salt"
+            "name": "kosher salt"
           }
         ],
         "technique": "salt"
       },
       {
-        "instruction": "Rub with olive oil and place skin-side up in a roasting pan.",
+        "instruction": "Rub the skin with olive oil and arrange the thighs skin-side up in a roasting pan, leaving space between each piece so air can circulate and the skin can crisp instead of steam.",
         "ingredients": [
           {
             "amount": 1,
@@ -346,12 +346,12 @@
         "technique": "fat_flavor"
       },
       {
-        "instruction": "Roast at 425\u00b0F (220\u00b0C) until the skin is deeply browned and the internal temperature reaches 165\u00b0F (74\u00b0C).",
+        "instruction": "Roast at 425\u00b0F (220\u00b0C) until the skin is deeply browned and crackling-crisp, about 35\u201340 minutes. Check doneness with an instant-read thermometer in the thickest part, avoiding the bone \u2014 it should read 165\u00b0F (74\u00b0C).",
         "ingredients": [],
         "technique": "searing"
       },
       {
-        "instruction": "Let rest for 5 minutes before serving.",
+        "instruction": "Let the chicken rest for 5 minutes before serving so the juices redistribute instead of running out onto the plate.",
         "ingredients": [],
         "technique": "resting"
       }
@@ -364,17 +364,17 @@
       {
         "amount": 2,
         "unit": "lbs",
-        "name": "short ribs"
+        "name": "bone-in English-cut short ribs"
       },
       {
         "amount": 1,
         "unit": "tsp",
-        "name": "salt"
+        "name": "kosher salt"
       },
       {
         "amount": 1,
         "unit": "Tbsp",
-        "name": "neutral oil"
+        "name": "canola or vegetable oil"
       },
       {
         "amount": 3,
@@ -384,34 +384,34 @@
     ],
     "steps": [
       {
-        "instruction": "Season the short ribs generously with salt.",
+        "instruction": "Pat the short ribs dry and season generously with salt on all sides \u2014 a well-browned, well-seasoned exterior is the base of the whole dish's flavor.",
         "ingredients": [
           {
             "amount": 2,
             "unit": "lbs",
-            "name": "short ribs"
+            "name": "bone-in English-cut short ribs"
           },
           {
             "amount": 1,
             "unit": "tsp",
-            "name": "salt"
+            "name": "kosher salt"
           }
         ],
         "technique": "salt"
       },
       {
-        "instruction": "Sear the ribs in oil over high heat until deeply browned on all sides.",
+        "instruction": "Heat the oil in a heavy pot over high heat until shimmering, then sear the ribs on all sides until deeply browned, a few minutes per side. Work in batches if needed \u2014 crowding the pot drops the temperature and steams the meat instead of browning it.",
         "ingredients": [
           {
             "amount": 1,
             "unit": "Tbsp",
-            "name": "neutral oil"
+            "name": "canola or vegetable oil"
           }
         ],
         "technique": "searing"
       },
       {
-        "instruction": "Add the broth, cover, and simmer very gently for 3 hours until the meat is fork-tender.",
+        "instruction": "Add the broth, scraping up any browned bits from the bottom of the pot. Cover, reduce the heat to a bare simmer \u2014 just an occasional lazy bubble, not a boil \u2014 and cook for about 3 hours, until a fork slides into the meat with almost no resistance.",
         "ingredients": [
           {
             "amount": 3,
@@ -422,7 +422,7 @@
         "technique": "braising"
       },
       {
-        "instruction": "Remove the ribs, then simmer the liquid uncovered until thickened into a sauce.",
+        "instruction": "Lift the ribs out onto a plate. Skim any excess fat from the surface of the liquid, then simmer it uncovered over medium heat until it reduces and thickens enough to coat the back of a spoon.",
         "ingredients": [],
         "technique": "reduction"
       }
@@ -435,54 +435,54 @@
       {
         "amount": 2,
         "unit": null,
-        "name": "salmon fillets"
+        "name": "skin-on salmon fillets"
       },
       {
         "amount": 0.5,
         "unit": "tsp",
-        "name": "salt"
+        "name": "kosher salt"
       },
       {
         "amount": 1,
         "unit": "Tbsp",
-        "name": "neutral oil"
+        "name": "canola or vegetable oil"
       }
     ],
     "steps": [
       {
-        "instruction": "Pat the salmon fillets dry and season with salt.",
+        "instruction": "Pat the salmon fillets very dry, especially the skin side, and season both sides with salt.",
         "ingredients": [
           {
             "amount": 2,
             "unit": null,
-            "name": "salmon fillets"
+            "name": "skin-on salmon fillets"
           },
           {
             "amount": 0.5,
             "unit": "tsp",
-            "name": "salt"
+            "name": "kosher salt"
           }
         ],
         "technique": "salt"
       },
       {
-        "instruction": "Heat oil in a pan over medium-high heat until shimmering.",
+        "instruction": "Heat the oil in a pan over medium-high heat until it shimmers and moves easily across the pan.",
         "ingredients": [
           {
             "amount": 1,
             "unit": "Tbsp",
-            "name": "neutral oil"
+            "name": "canola or vegetable oil"
           }
         ],
         "technique": "searing"
       },
       {
-        "instruction": "Place the salmon skin-side down and cook undisturbed until the skin is crisp, about 5 minutes.",
+        "instruction": "Place the salmon skin-side down and press gently for the first 10\u201315 seconds with a spatula to keep the skin from curling. Cook undisturbed until the skin releases easily and looks deeply golden and crisp, about 5 minutes \u2014 don't try to move it before then, or the skin will tear.",
         "ingredients": [],
         "technique": "searing"
       },
       {
-        "instruction": "Flip and cook just until the center turns from translucent to opaque, 1\u20132 minutes.",
+        "instruction": "Flip the salmon and cook just until the center turns from translucent to opaque and flakes easily with light pressure, about 1\u20132 minutes \u2014 it's easy to overshoot here, so start checking early.",
         "ingredients": [],
         "technique": "protein_denaturation"
       }
@@ -500,7 +500,7 @@
       {
         "amount": 2,
         "unit": "Tbsp",
-        "name": "flour"
+        "name": "all-purpose flour"
       },
       {
         "amount": 2,
@@ -510,12 +510,12 @@
       {
         "amount": 0.5,
         "unit": "tsp",
-        "name": "salt"
+        "name": "kosher salt"
       }
     ],
     "steps": [
       {
-        "instruction": "Whisk the flour into the warm pan drippings and cook for 1\u20132 minutes.",
+        "instruction": "Whisk the flour into the warm pan drippings until smooth, then cook for 1\u20132 minutes, stirring constantly. It should smell toasty, not raw \u2014 this brief cooking removes the raw-flour taste.",
         "ingredients": [
           {
             "amount": 2,
@@ -525,13 +525,13 @@
           {
             "amount": 2,
             "unit": "Tbsp",
-            "name": "flour"
+            "name": "all-purpose flour"
           }
         ],
         "technique": "roux"
       },
       {
-        "instruction": "Pour in the broth while whisking, scraping up any browned bits from the pan.",
+        "instruction": "Pour in the broth in a slow stream while whisking constantly, scraping up any browned bits stuck to the bottom of the pan \u2014 that's concentrated flavor you want in the gravy, not left behind.",
         "ingredients": [
           {
             "amount": 2,
@@ -542,12 +542,12 @@
         "technique": "deglazing"
       },
       {
-        "instruction": "Simmer until thickened, then season with salt to taste.",
+        "instruction": "Bring to a simmer, whisking occasionally, until the gravy thickens enough to coat the back of a spoon, then season with salt to taste. If it gets too thick, whisk in a splash more broth.",
         "ingredients": [
           {
             "amount": 0.5,
             "unit": "tsp",
-            "name": "salt"
+            "name": "kosher salt"
           }
         ],
         "technique": "salt"
@@ -561,22 +561,22 @@
       {
         "amount": 1,
         "unit": "cup",
-        "name": "butter, softened"
+        "name": "unsalted butter, softened"
       },
       {
         "amount": 1,
         "unit": "cup",
-        "name": "sugar"
+        "name": "granulated sugar"
       },
       {
         "amount": 1,
         "unit": null,
-        "name": "egg"
+        "name": "large egg"
       },
       {
         "amount": 2.5,
         "unit": "cup",
-        "name": "flour"
+        "name": "all-purpose flour"
       },
       {
         "amount": 1,
@@ -586,44 +586,44 @@
       {
         "amount": 0.5,
         "unit": "tsp",
-        "name": "salt"
+        "name": "fine sea salt"
       }
     ],
     "steps": [
       {
-        "instruction": "Cream the butter and sugar together until light and fluffy.",
+        "instruction": "Beat the butter and sugar together until noticeably lighter in color and fluffy in texture, 2\u20133 minutes \u2014 this isn't just mixing, it's whipping air into the fat, which is what gives the cookies lift.",
         "ingredients": [
           {
             "amount": 1,
             "unit": "cup",
-            "name": "butter, softened"
+            "name": "unsalted butter, softened"
           },
           {
             "amount": 1,
             "unit": "cup",
-            "name": "sugar"
+            "name": "granulated sugar"
           }
         ],
         "technique": "creaming"
       },
       {
-        "instruction": "Beat in the egg until fully combined.",
+        "instruction": "Beat in the egg until fully combined and the mixture looks smooth and glossy again.",
         "ingredients": [
           {
             "amount": 1,
             "unit": null,
-            "name": "egg"
+            "name": "large egg"
           }
         ],
         "technique": null
       },
       {
-        "instruction": "Whisk the flour, baking powder, and salt together, then stir into the wet ingredients just until combined.",
+        "instruction": "In a separate bowl, whisk the flour, baking powder, and salt together, then add to the wet ingredients and stir just until no dry flour remains. Overmixing here develops gluten and makes for tough, dense cookies instead of tender ones.",
         "ingredients": [
           {
             "amount": 2.5,
             "unit": "cup",
-            "name": "flour"
+            "name": "all-purpose flour"
           },
           {
             "amount": 1,
@@ -633,13 +633,13 @@
           {
             "amount": 0.5,
             "unit": "tsp",
-            "name": "salt"
+            "name": "fine sea salt"
           }
         ],
         "technique": "gluten_development"
       },
       {
-        "instruction": "Bake at 350\u00b0F (175\u00b0C) until the edges turn golden brown.",
+        "instruction": "Bake at 350\u00b0F (175\u00b0C) until the edges are just turning golden but the centers still look slightly underdone, 10\u201312 minutes \u2014 they'll continue to firm up as they cool on the tray.",
         "ingredients": [],
         "technique": "caramelization"
       }
@@ -652,49 +652,49 @@
       {
         "amount": 3,
         "unit": null,
-        "name": "egg whites"
+        "name": "large egg whites"
       },
       {
         "amount": 0.75,
         "unit": "cup",
-        "name": "sugar"
+        "name": "granulated sugar"
       },
       {
         "amount": 0.25,
         "unit": "tsp",
-        "name": "salt"
+        "name": "fine sea salt"
       }
     ],
     "steps": [
       {
-        "instruction": "Whip the egg whites with salt until foamy.",
+        "instruction": "In a completely clean, dry bowl, whip the egg whites with the salt until foamy and opaque \u2014 any trace of fat or yolk will keep the whites from whipping properly, so make sure the bowl and beaters are grease-free.",
         "ingredients": [
           {
             "amount": 3,
             "unit": null,
-            "name": "egg whites"
+            "name": "large egg whites"
           },
           {
             "amount": 0.25,
             "unit": "tsp",
-            "name": "salt"
+            "name": "fine sea salt"
           }
         ],
         "technique": "egg_foams"
       },
       {
-        "instruction": "Gradually add the sugar while continuing to whip until stiff, glossy peaks form.",
+        "instruction": "With the mixer running, add the sugar a spoonful at a time, letting it fully incorporate between additions. Keep whipping until the mixture holds stiff, glossy peaks that stand straight up when you lift the beaters.",
         "ingredients": [
           {
             "amount": 0.75,
             "unit": "cup",
-            "name": "sugar"
+            "name": "granulated sugar"
           }
         ],
         "technique": "egg_foams"
       },
       {
-        "instruction": "Pipe or spoon onto a baking sheet and bake low and slow at 200\u00b0F (95\u00b0C) until dry and crisp.",
+        "instruction": "Pipe or spoon the meringue onto a parchment-lined baking sheet and bake low and slow at 200\u00b0F (95\u00b0C) until fully dry and crisp all the way through, 1.5\u20132 hours. They're done when they lift cleanly off the parchment with no sticky spots underneath.",
         "ingredients": [],
         "technique": null
       }
@@ -712,23 +712,23 @@
       {
         "amount": 1,
         "unit": "Tbsp",
-        "name": "salt"
+        "name": "kosher salt"
       }
     ],
     "steps": [
       {
-        "instruction": "Bring a large pot of well-salted water to a rolling boil.",
+        "instruction": "Bring a large pot of well-salted water to a full rolling boil \u2014 the water should taste noticeably salty, almost like seawater, with enough volume that adding the beans doesn't drop the temperature much.",
         "ingredients": [
           {
             "amount": 1,
             "unit": "Tbsp",
-            "name": "salt"
+            "name": "kosher salt"
           }
         ],
         "technique": null
       },
       {
-        "instruction": "Add the green beans and cook until bright green and just tender, 2\u20133 minutes.",
+        "instruction": "Add the green beans all at once and cook until they turn bright, vivid green and are just tender with a slight bite, 2\u20133 minutes \u2014 taste one to check, since exact timing varies by thickness.",
         "ingredients": [
           {
             "amount": 1,
@@ -739,7 +739,7 @@
         "technique": "blanching"
       },
       {
-        "instruction": "Immediately transfer to a bowl of ice water to stop the cooking.",
+        "instruction": "Immediately drain and plunge the beans into a bowl of ice water. Leave them until fully cooled, then drain again \u2014 this stops the cooking instantly and locks in the color.",
         "ingredients": [],
         "technique": "blanching"
       }
@@ -757,7 +757,7 @@
       {
         "amount": 0.25,
         "unit": "cup",
-        "name": "salt"
+        "name": "kosher salt"
       },
       {
         "amount": 4,
@@ -767,17 +767,17 @@
       {
         "amount": 1,
         "unit": "Tbsp",
-        "name": "neutral oil"
+        "name": "canola or vegetable oil"
       }
     ],
     "steps": [
       {
-        "instruction": "Dissolve the salt in water to make a brine, then submerge the pork chops for 30 minutes.",
+        "instruction": "Stir the salt into the water until fully dissolved, then submerge the pork chops completely. Let them sit in the brine for 30 minutes \u2014 much longer than that and the meat can start to turn mushy.",
         "ingredients": [
           {
             "amount": 0.25,
             "unit": "cup",
-            "name": "salt"
+            "name": "kosher salt"
           },
           {
             "amount": 4,
@@ -793,25 +793,1125 @@
         "technique": "brining"
       },
       {
-        "instruction": "Remove the chops from the brine and pat completely dry.",
+        "instruction": "Remove the chops from the brine and pat them completely dry with paper towels. Any leftover surface moisture will make them steam instead of sear.",
         "ingredients": [],
         "technique": null
       },
       {
-        "instruction": "Sear in oil over medium-high heat until browned and cooked through.",
+        "instruction": "Heat the oil in a pan over medium-high heat until shimmering, then sear the chops until deeply browned on both sides and cooked through, about 4\u20135 minutes per side depending on thickness. An instant-read thermometer should read 145\u00b0F (63\u00b0C) in the thickest part.",
         "ingredients": [
           {
             "amount": 1,
             "unit": "Tbsp",
-            "name": "neutral oil"
+            "name": "canola or vegetable oil"
           }
         ],
         "technique": "searing"
       },
       {
-        "instruction": "Let rest for 5 minutes before serving.",
+        "instruction": "Let the chops rest for 5 minutes before serving so the juices settle back into the meat instead of running out when you cut in.",
         "ingredients": [],
         "technique": "resting"
+      }
+    ]
+  },
+  "garlic_butter_shrimp": {
+    "title": "Garlic Butter Shrimp",
+    "category": "Mains",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "lb",
+        "name": "large shrimp, peeled and deveined"
+      },
+      {
+        "amount": 3,
+        "unit": "Tbsp",
+        "name": "unsalted butter"
+      },
+      {
+        "amount": 4,
+        "unit": null,
+        "name": "garlic cloves"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "kosher salt"
+      },
+      {
+        "amount": 1,
+        "unit": "Tbsp",
+        "name": "fresh lemon juice"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Pat the shrimp completely dry and season with salt. Removing surface moisture helps them sear instead of steam, the same principle as any other protein.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "lb",
+            "name": "large shrimp, peeled and deveined"
+          },
+          {
+            "amount": 0.5,
+            "unit": "tsp",
+            "name": "kosher salt"
+          }
+        ],
+        "technique": "salt"
+      },
+      {
+        "instruction": "Melt half the butter in a pan over medium-high heat until it foams, then add the shrimp in a single layer without crowding the pan.",
+        "ingredients": [
+          {
+            "amount": 1.5,
+            "unit": "Tbsp",
+            "name": "unsalted butter"
+          }
+        ],
+        "technique": "searing"
+      },
+      {
+        "instruction": "Cook undisturbed for about 1\u20132 minutes until the bottoms turn pink and opaque, then flip. Shrimp cook fast and go from tender to rubbery quickly, so watch closely rather than relying on the clock alone.",
+        "ingredients": [],
+        "technique": "protein_denaturation"
+      },
+      {
+        "instruction": "Add the garlic and remaining butter, swirling the pan until fragrant but not browned, about 30 seconds \u2014 garlic burns easily and turns bitter if left too long. Finish with a squeeze of lemon juice.",
+        "ingredients": [
+          {
+            "amount": 4,
+            "unit": null,
+            "name": "garlic cloves"
+          },
+          {
+            "amount": 1.5,
+            "unit": "Tbsp",
+            "name": "unsalted butter"
+          },
+          {
+            "amount": 1,
+            "unit": "Tbsp",
+            "name": "fresh lemon juice"
+          }
+        ],
+        "technique": "fat_flavor"
+      }
+    ]
+  },
+  "roasted_vegetables": {
+    "title": "Roasted Vegetables",
+    "category": "Sides",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "lbs",
+        "name": "mixed vegetables"
+      },
+      {
+        "amount": 2,
+        "unit": "Tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "kosher salt"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Cut the vegetables into similarly sized pieces so they cook at the same rate \u2014 a big difference in size means some pieces burn while others are still raw.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": "lbs",
+            "name": "mixed vegetables"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "Toss with olive oil and salt until every piece is lightly coated, then spread in a single layer on a baking sheet with space between pieces. Crowding the pan traps steam and keeps vegetables from browning.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": "Tbsp",
+            "name": "olive oil"
+          },
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "kosher salt"
+          }
+        ],
+        "technique": "fat_flavor"
+      },
+      {
+        "instruction": "Roast at 425\u00b0F (220\u00b0C), flipping halfway through, until deeply browned at the edges and tender all the way through when pierced with a fork, 25\u201335 minutes depending on the vegetable.",
+        "ingredients": [],
+        "technique": "caramelization"
+      }
+    ]
+  },
+  "simple_tomato_sauce": {
+    "title": "Simple Tomato Sauce",
+    "category": "Sauces & Dressings",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "Tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": 3,
+        "unit": null,
+        "name": "garlic cloves"
+      },
+      {
+        "amount": 1,
+        "unit": null,
+        "name": "28 oz can crushed tomatoes"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "kosher salt"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Heat the olive oil in a saucepan over medium heat, then add the garlic and cook, stirring, until fragrant but not browned, about 30 seconds.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": "Tbsp",
+            "name": "olive oil"
+          },
+          {
+            "amount": 3,
+            "unit": null,
+            "name": "garlic cloves"
+          }
+        ],
+        "technique": "fat_flavor"
+      },
+      {
+        "instruction": "Add the crushed tomatoes and salt, stir to combine, and bring to a gentle simmer.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": null,
+            "name": "28 oz can crushed tomatoes"
+          },
+          {
+            "amount": 0.5,
+            "unit": "tsp",
+            "name": "kosher salt"
+          }
+        ],
+        "technique": "salt"
+      },
+      {
+        "instruction": "Simmer uncovered, stirring occasionally, until the sauce thickens and deepens in color, 20\u201325 minutes. If it starts sticking to the bottom of the pan, lower the heat.",
+        "ingredients": [],
+        "technique": "reduction"
+      },
+      {
+        "instruction": "Taste and adjust \u2014 if the sauce tastes sharp or acidic rather than rounded, a small pinch of sugar can help balance it without making the sauce taste sweet.",
+        "ingredients": [],
+        "technique": "acid"
+      }
+    ]
+  },
+  "banana_bread": {
+    "title": "Banana Bread",
+    "category": "Breakfast",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": null,
+        "name": "ripe bananas"
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "name": "granulated sugar"
+      },
+      {
+        "amount": 0.3333,
+        "unit": "cup",
+        "name": "unsalted butter, melted"
+      },
+      {
+        "amount": 1,
+        "unit": null,
+        "name": "large egg"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cup",
+        "name": "all-purpose flour"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "baking soda"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "fine sea salt"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "In a large bowl, mash the ripe bananas with a fork until mostly smooth \u2014 a few small lumps are fine and add nice texture.",
+        "ingredients": [
+          {
+            "amount": 3,
+            "unit": null,
+            "name": "ripe bananas"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "Stir in the melted butter, sugar, and egg until well combined.",
+        "ingredients": [
+          {
+            "amount": 0.3333,
+            "unit": "cup",
+            "name": "unsalted butter, melted"
+          },
+          {
+            "amount": 0.75,
+            "unit": "cup",
+            "name": "granulated sugar"
+          },
+          {
+            "amount": 1,
+            "unit": null,
+            "name": "large egg"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "Sprinkle the baking soda and salt evenly over the mixture and stir in, then add the flour and stir just until no dry streaks remain. Overmixing here makes the loaf dense and tough instead of tender.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "baking soda"
+          },
+          {
+            "amount": 0.5,
+            "unit": "tsp",
+            "name": "fine sea salt"
+          },
+          {
+            "amount": 1.5,
+            "unit": "cup",
+            "name": "all-purpose flour"
+          }
+        ],
+        "technique": "gluten_development"
+      },
+      {
+        "instruction": "Pour into a greased loaf pan and bake at 350\u00b0F (175\u00b0C) until a toothpick inserted in the center comes out clean and the top is deeply golden, 55\u201365 minutes. Tent with foil partway through if the top browns too quickly.",
+        "ingredients": [],
+        "technique": "caramelization"
+      }
+    ]
+  },
+  "caesar_dressing": {
+    "title": "Caesar Dressing",
+    "category": "Sauces & Dressings",
+    "ingredients": [
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "name": "mayonnaise"
+      },
+      {
+        "amount": 1,
+        "unit": null,
+        "name": "garlic clove"
+      },
+      {
+        "amount": 2,
+        "unit": "Tbsp",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "dijon mustard"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "name": "grated parmesan"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "fine sea salt"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "In a bowl, whisk together the mayonnaise, garlic, lemon juice, and mustard until smooth.",
+        "ingredients": [
+          {
+            "amount": 0.5,
+            "unit": "cup",
+            "name": "mayonnaise"
+          },
+          {
+            "amount": 1,
+            "unit": null,
+            "name": "garlic clove"
+          },
+          {
+            "amount": 2,
+            "unit": "Tbsp",
+            "name": "fresh lemon juice"
+          },
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "dijon mustard"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "Whisk in the parmesan and salt, then taste \u2014 if it tastes flat, it usually needs a touch more lemon juice rather than more salt.",
+        "ingredients": [
+          {
+            "amount": 0.25,
+            "unit": "cup",
+            "name": "grated parmesan"
+          },
+          {
+            "amount": 0.25,
+            "unit": "tsp",
+            "name": "fine sea salt"
+          }
+        ],
+        "technique": "acid"
+      },
+      {
+        "instruction": "Let the dressing sit for at least 10 minutes before serving if you can \u2014 this gives the raw garlic time to mellow and the flavors time to meld.",
+        "ingredients": [],
+        "technique": null
+      }
+    ]
+  },
+  "braised_chicken_thighs": {
+    "title": "Braised Chicken Thighs",
+    "category": "Mains",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": null,
+        "name": "bone-in, skin-on chicken thighs"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "kosher salt"
+      },
+      {
+        "amount": 1,
+        "unit": "Tbsp",
+        "name": "canola or vegetable oil"
+      },
+      {
+        "amount": 1,
+        "unit": null,
+        "name": "medium onion, chopped"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cup",
+        "name": "chicken broth"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Pat the chicken thighs dry and season generously with salt on both sides.",
+        "ingredients": [
+          {
+            "amount": 4,
+            "unit": null,
+            "name": "bone-in, skin-on chicken thighs"
+          },
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "kosher salt"
+          }
+        ],
+        "technique": "salt"
+      },
+      {
+        "instruction": "Heat the oil in a heavy pot over medium-high heat, then sear the chicken skin-side down until deeply golden and crisp, about 6\u20138 minutes. Resist flipping early \u2014 the skin releases cleanly from the pan on its own once it's properly browned.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "Tbsp",
+            "name": "canola or vegetable oil"
+          }
+        ],
+        "technique": "searing"
+      },
+      {
+        "instruction": "Flip and sear the other side briefly, then remove the chicken and set aside. Add the onion to the same pot and cook, stirring, until softened, scraping up any browned bits stuck to the bottom.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": null,
+            "name": "medium onion, chopped"
+          }
+        ],
+        "technique": "deglazing"
+      },
+      {
+        "instruction": "Return the chicken to the pot skin-side up, add the broth so it comes about halfway up the chicken (not fully submerging it, which would soften the skin), cover, and simmer gently until the meat is very tender, about 35\u201340 minutes.",
+        "ingredients": [
+          {
+            "amount": 1.5,
+            "unit": "cup",
+            "name": "chicken broth"
+          }
+        ],
+        "technique": "braising"
+      }
+    ]
+  },
+  "french_toast": {
+    "title": "French Toast",
+    "category": "Breakfast",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": null,
+        "name": "large eggs"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "name": "whole milk"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "cinnamon"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "fine sea salt"
+      },
+      {
+        "amount": 4,
+        "unit": null,
+        "name": "thick-cut bread slices"
+      },
+      {
+        "amount": 2,
+        "unit": "Tbsp",
+        "name": "unsalted butter"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "In a shallow bowl, whisk the eggs, milk, cinnamon, and salt together until fully combined and no streaks of egg remain.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": null,
+            "name": "large eggs"
+          },
+          {
+            "amount": 0.5,
+            "unit": "cup",
+            "name": "whole milk"
+          },
+          {
+            "amount": 0.5,
+            "unit": "tsp",
+            "name": "cinnamon"
+          },
+          {
+            "amount": 0.25,
+            "unit": "tsp",
+            "name": "fine sea salt"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "Dip each slice of bread into the mixture, letting it soak for about 10\u201320 seconds per side \u2014 long enough to absorb the custard without falling apart. Day-old or slightly stale bread holds up better than fresh, since it soaks up liquid without turning to mush.",
+        "ingredients": [
+          {
+            "amount": 4,
+            "unit": null,
+            "name": "thick-cut bread slices"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "Melt half the butter in a pan or griddle over medium heat. Cook the soaked bread until deeply golden brown on the first side, 2\u20133 minutes.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "Tbsp",
+            "name": "unsalted butter"
+          }
+        ],
+        "technique": "caramelization"
+      },
+      {
+        "instruction": "Flip and cook the other side until golden and the center feels set rather than wet or eggy when pressed gently, another 2\u20133 minutes. Add the remaining butter to the pan as needed for the next batch.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "Tbsp",
+            "name": "unsalted butter"
+          }
+        ],
+        "technique": "protein_denaturation"
+      }
+    ]
+  },
+  "classic_meatloaf": {
+    "title": "Classic Meatloaf",
+    "category": "Mains",
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "lbs",
+        "name": "ground beef"
+      },
+      {
+        "amount": 1,
+        "unit": null,
+        "name": "large egg"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "name": "breadcrumbs"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "name": "whole milk"
+      },
+      {
+        "amount": 1,
+        "unit": null,
+        "name": "small onion, chopped"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "kosher salt"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "name": "ketchup"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "In a large bowl, combine the ground beef, egg, breadcrumbs, milk, chopped onion, and salt. Mix gently with your hands just until combined \u2014 overworking the mixture packs the meat too tightly and makes the loaf dense instead of tender.",
+        "ingredients": [
+          {
+            "amount": 1.5,
+            "unit": "lbs",
+            "name": "ground beef"
+          },
+          {
+            "amount": 1,
+            "unit": null,
+            "name": "large egg"
+          },
+          {
+            "amount": 0.5,
+            "unit": "cup",
+            "name": "breadcrumbs"
+          },
+          {
+            "amount": 0.25,
+            "unit": "cup",
+            "name": "whole milk"
+          },
+          {
+            "amount": 1,
+            "unit": null,
+            "name": "small onion, chopped"
+          },
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "kosher salt"
+          }
+        ],
+        "technique": "salt"
+      },
+      {
+        "instruction": "Shape the mixture into a loaf on a lined baking sheet or press into a loaf pan, then brush the top with ketchup.",
+        "ingredients": [
+          {
+            "amount": 0.25,
+            "unit": "cup",
+            "name": "ketchup"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "Bake at 350\u00b0F (175\u00b0C) until the top is deeply browned and an instant-read thermometer inserted into the center reads 160\u00b0F (71\u00b0C), about 55\u201365 minutes.",
+        "ingredients": [],
+        "technique": "caramelization"
+      },
+      {
+        "instruction": "Let the meatloaf rest for 10 minutes before slicing \u2014 cutting immediately lets the juices run out and leaves the slices dry.",
+        "ingredients": [],
+        "technique": "resting"
+      }
+    ]
+  },
+  "mashed_potatoes": {
+    "title": "Mashed Potatoes",
+    "category": "Sides",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "lbs",
+        "name": "Yukon gold potatoes, peeled and cubed"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "kosher salt"
+      },
+      {
+        "amount": 4,
+        "unit": "Tbsp",
+        "name": "unsalted butter"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "name": "whole milk, warmed"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Peel and cube the potatoes into roughly even 1-inch pieces so they cook at the same rate, then place in a large pot and cover with cold water by about an inch. Starting in cold water, rather than adding them to water that's already boiling, helps them cook through evenly instead of falling apart on the outside before the center is done.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": "lbs",
+            "name": "Yukon gold potatoes, peeled and cubed"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "Add the salt to the water \u2014 it should taste clearly salty, since this is your main chance to season the potatoes from the inside. Bring to a boil and cook until a fork slides in with no resistance, 12\u201315 minutes.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "kosher salt"
+          }
+        ],
+        "technique": "salt"
+      },
+      {
+        "instruction": "Drain well and return the potatoes to the warm pot for a minute to let excess steam escape \u2014 wet potatoes make for gluey mashed potatoes. Mash while still warm, then stir in the butter and warm milk until smooth and creamy.",
+        "ingredients": [
+          {
+            "amount": 4,
+            "unit": "Tbsp",
+            "name": "unsalted butter"
+          },
+          {
+            "amount": 0.5,
+            "unit": "cup",
+            "name": "whole milk, warmed"
+          }
+        ],
+        "technique": "fat_flavor"
+      },
+      {
+        "instruction": "Taste and adjust the seasoning \u2014 mashed potatoes often need more salt than expected, since a good amount stayed behind in the cooking water.",
+        "ingredients": [],
+        "technique": "salt"
+      }
+    ]
+  },
+  "coleslaw": {
+    "title": "Coleslaw",
+    "category": "Sides",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "cup",
+        "name": "shredded cabbage"
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "name": "shredded carrots"
+      },
+      {
+        "amount": 0.3333,
+        "unit": "cup",
+        "name": "mayonnaise"
+      },
+      {
+        "amount": 1,
+        "unit": "Tbsp",
+        "name": "apple cider vinegar"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "granulated sugar"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "fine sea salt"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "In a large bowl, combine the shredded cabbage and carrots.",
+        "ingredients": [
+          {
+            "amount": 4,
+            "unit": "cup",
+            "name": "shredded cabbage"
+          },
+          {
+            "amount": 1,
+            "unit": "cup",
+            "name": "shredded carrots"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "In a separate small bowl, whisk together the mayonnaise, vinegar, sugar, and salt until smooth and the sugar and salt are fully dissolved.",
+        "ingredients": [
+          {
+            "amount": 0.3333,
+            "unit": "cup",
+            "name": "mayonnaise"
+          },
+          {
+            "amount": 1,
+            "unit": "Tbsp",
+            "name": "apple cider vinegar"
+          },
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "granulated sugar"
+          },
+          {
+            "amount": 0.5,
+            "unit": "tsp",
+            "name": "fine sea salt"
+          }
+        ],
+        "technique": "emulsification"
+      },
+      {
+        "instruction": "Pour the dressing over the cabbage mixture and toss until every piece is evenly coated.",
+        "ingredients": [],
+        "technique": null
+      },
+      {
+        "instruction": "Refrigerate for at least 30 minutes before serving \u2014 this gives the cabbage time to soften slightly and absorb the dressing, which noticeably improves both texture and flavor.",
+        "ingredients": [],
+        "technique": "acid"
+      }
+    ]
+  },
+  "cheese_sauce": {
+    "title": "Cheese Sauce",
+    "category": "Sauces & Dressings",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "Tbsp",
+        "name": "unsalted butter"
+      },
+      {
+        "amount": 3,
+        "unit": "Tbsp",
+        "name": "all-purpose flour"
+      },
+      {
+        "amount": 2.5,
+        "unit": "cup",
+        "name": "whole milk, warmed"
+      },
+      {
+        "amount": 2,
+        "unit": "cup",
+        "name": "shredded sharp cheddar cheese"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "kosher salt"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Melt the butter in a saucepan over medium heat, then whisk in the flour until smooth. Cook, stirring constantly, for 1\u20132 minutes until it smells toasty rather than raw \u2014 this is a roux, the base that will thicken the whole sauce.",
+        "ingredients": [
+          {
+            "amount": 3,
+            "unit": "Tbsp",
+            "name": "unsalted butter"
+          },
+          {
+            "amount": 3,
+            "unit": "Tbsp",
+            "name": "all-purpose flour"
+          }
+        ],
+        "technique": "roux"
+      },
+      {
+        "instruction": "Slowly whisk in the warm milk, a little at a time at first, whisking out any lumps before adding more. Using warm milk rather than cold helps the sauce come together smoothly without seizing.",
+        "ingredients": [
+          {
+            "amount": 2.5,
+            "unit": "cup",
+            "name": "whole milk, warmed"
+          }
+        ],
+        "technique": "roux"
+      },
+      {
+        "instruction": "Cook, whisking often, until the sauce thickens enough to coat the back of a spoon, about 5 minutes.",
+        "ingredients": [],
+        "technique": null
+      },
+      {
+        "instruction": "Remove from heat and stir in the cheese a handful at a time, letting each addition melt before adding more. Season with salt to taste. Adding the cheese off the heat and gradually keeps the sauce smooth instead of turning grainy or oily.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": "cup",
+            "name": "shredded sharp cheddar cheese"
+          },
+          {
+            "amount": 0.5,
+            "unit": "tsp",
+            "name": "kosher salt"
+          }
+        ],
+        "technique": "fat_flavor"
+      }
+    ]
+  },
+  "pan_sauce": {
+    "title": "Pan Sauce",
+    "category": "Sauces & Dressings",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "cup",
+        "name": "broth"
+      },
+      {
+        "amount": 2,
+        "unit": "Tbsp",
+        "name": "unsalted butter, cold and cubed"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "kosher salt"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "After searing your meat and removing it from the pan, pour in the broth while scraping up any browned bits stuck to the bottom with a wooden spoon \u2014 that's concentrated flavor, not something to leave behind.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "cup",
+            "name": "broth"
+          }
+        ],
+        "technique": "deglazing"
+      },
+      {
+        "instruction": "Bring to a simmer and cook, stirring occasionally, until the liquid reduces by about half and tastes concentrated rather than watery, 3\u20135 minutes.",
+        "ingredients": [],
+        "technique": "reduction"
+      },
+      {
+        "instruction": "Remove the pan from the heat and whisk in the cold butter a piece at a time, swirling the pan until each piece melts into the sauce before adding the next. Working off the heat with cold butter keeps the sauce glossy and thick instead of greasy and separated.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": "Tbsp",
+            "name": "unsalted butter, cold and cubed"
+          }
+        ],
+        "technique": "fat_flavor"
+      },
+      {
+        "instruction": "Season with salt to taste and spoon over the meat immediately \u2014 this sauce is best used right away, since it can separate if it sits too long or gets too hot again.",
+        "ingredients": [
+          {
+            "amount": 0.25,
+            "unit": "tsp",
+            "name": "kosher salt"
+          }
+        ],
+        "technique": "salt"
+      }
+    ]
+  },
+  "chocolate_chip_cookies": {
+    "title": "Chocolate Chip Cookies",
+    "category": "Desserts",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "cup",
+        "name": "unsalted butter, softened"
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "name": "granulated sugar"
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "name": "packed brown sugar"
+      },
+      {
+        "amount": 2,
+        "unit": null,
+        "name": "large eggs"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "vanilla extract"
+      },
+      {
+        "amount": 2.25,
+        "unit": "cup",
+        "name": "all-purpose flour"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "baking soda"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "fine sea salt"
+      },
+      {
+        "amount": 2,
+        "unit": "cup",
+        "name": "semisweet chocolate chips"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Beat the softened butter with both sugars until light and fluffy, 2\u20133 minutes \u2014 the brown sugar adds moisture and a deeper flavor alongside the granulated sugar's crisp sweetness.",
+        "ingredients": [
+          {
+            "amount": 1,
+            "unit": "cup",
+            "name": "unsalted butter, softened"
+          },
+          {
+            "amount": 0.75,
+            "unit": "cup",
+            "name": "granulated sugar"
+          },
+          {
+            "amount": 0.75,
+            "unit": "cup",
+            "name": "packed brown sugar"
+          }
+        ],
+        "technique": "creaming"
+      },
+      {
+        "instruction": "Beat in the eggs one at a time, then the vanilla, mixing until fully combined and smooth.",
+        "ingredients": [
+          {
+            "amount": 2,
+            "unit": null,
+            "name": "large eggs"
+          },
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "vanilla extract"
+          }
+        ],
+        "technique": null
+      },
+      {
+        "instruction": "In a separate bowl, whisk the flour, baking soda, and salt together, then stir into the wet ingredients just until combined. Fold in the chocolate chips last.",
+        "ingredients": [
+          {
+            "amount": 2.25,
+            "unit": "cup",
+            "name": "all-purpose flour"
+          },
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "baking soda"
+          },
+          {
+            "amount": 1,
+            "unit": "tsp",
+            "name": "fine sea salt"
+          },
+          {
+            "amount": 2,
+            "unit": "cup",
+            "name": "semisweet chocolate chips"
+          }
+        ],
+        "technique": "gluten_development"
+      },
+      {
+        "instruction": "Scoop onto a baking sheet and bake at 375\u00b0F (190\u00b0C) until the edges are golden but the centers still look slightly underbaked, 9\u201311 minutes \u2014 they'll continue to set as they cool, giving that classic chewy center.",
+        "ingredients": [],
+        "technique": "caramelization"
       }
     ]
   }

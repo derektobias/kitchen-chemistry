@@ -1,3 +1,10 @@
+/* :root is the Autumn theme's definition — the one theme with no explicit
+   [data-theme="autumn"] block below, since it doesn't need one: applyTheme()
+   still sets data-theme="autumn" on <html> when it's active, but since no
+   CSS rule targets that specific value, the browser just falls through to
+   these plain :root declarations. The other three themes each override
+   every one of these same variable names inside their own [data-theme="..."]
+   block further down. */
 :root {
     --char-black: #121212;
     --surface: #1e1e1e;
@@ -9,6 +16,9 @@
     --parchment: #f2f0ec;
     --muted: #999999;
     --border: #333333;
+    --frame: #a6522a;
+    --on-frame: var(--parchment);
+    --on-frame-muted: #f3ebe1;
 
     --font-display: 'Fraunces', serif;
     --font-body: 'Work Sans', sans-serif;
@@ -22,14 +32,14 @@
     --font-mono: 'IBM Plex Sans', sans-serif;
   }
 
-  /* ---- THEME: Colorful & Warm ---- */
-  /* A light, vibrant palette — the classic theme is "cast iron pan at
+  /* ---- THEME: Cream ---- */
+  /* A light, vibrant palette — the autumn theme is "cast iron pan at
      night"; this one is "farmers market at noon." Same variable names
      throughout the app, just different values, applied via
-     [data-theme="warm"] on <html>.
+     [data-theme="cream"] on <html>.
 
      A genuine design constraint, not just a hue swap: text needs to be
-     DARK to read on a light background, but the classic theme's --ember
+     DARK to read on a light background, but the autumn theme's --ember
      was tuned bright specifically so it'd read well as both small text
      AND button backgrounds against a DARK background — that dual role
      doesn't automatically carry over to a light background. Solved here
@@ -40,7 +50,7 @@
      the dark theme, and light cream text sits right on a deeper coral
      button here — see the button-text rule using var(--char-black)
      rather than a hardcoded color. */
-  [data-theme="warm"] {
+  [data-theme="cream"] {
     --char-black: #fcf3e7;
     --surface: #f7e6d0;
     --surface-2: #f0d9bb;
@@ -51,8 +61,107 @@
     --parchment: #3a2e28;
     --muted: #7c6449;
     --border: #e8d4bc;
+    --frame: #b5304e;
+    --on-frame: var(--char-black);
+    --on-frame-muted: #fae7ea;
   }
 
+  /* ---- THEME: Spring ---- */
+  /* Pink and green do the functional work (primary/secondary accents,
+     same roles as Cream's coral/gold) — blue and purple show up in the
+     supporting tones instead: --ember-dim (normally just a "dimmer"
+     variant of the primary accent) is a soft lavender-purple here rather
+     than a duller pink, and --muted/--border both carry a cool blue-grey
+     undertone rather than a warm one. That's how all four colors you
+     described end up genuinely present without needing new variables or
+     touching component CSS — same trick as Cream, new values. */
+  [data-theme="spring"] {
+    --char-black: #fbebf1;
+    --surface: #ead9f0;
+    --surface-2: #dcc0e8;
+    --ember: #7a34a0;
+    --ember-rgb: 122, 52, 160;
+    --ember-dim: #b98fd1;
+    --steel: #1f6b2c;
+    --parchment: #211f1c;
+    --muted: #6c6180;
+    --border: #cba3dc;
+    --frame: #b98fd1;
+    --on-frame: #211f1c;
+    --on-frame-muted: #3d2f4d;
+  }
+
+  /* ---- THEME: Midnight (navy & copper) ---- */
+  /* Kept the frame conservative on purpose — after Autumn's fully-orange
+     frame felt like too much of one color, this defaults the frame to
+     match --char-black (no loud colored header) until there's a reason
+     to give it one. Copper does its accent work everywhere else; steel
+     blue is the secondary accent, playing off "navy + metal" rather than
+     leaning on a stereotype color pairing. */
+  [data-theme="midnight"] {
+    --char-black: #10151f;
+    --surface: #1a2433;
+    --surface-2: #243043;
+    --ember: #c17f45;
+    --ember-rgb: 193, 127, 69;
+    --ember-dim: #8f5a2e;
+    --steel: #6e93b0;
+    --parchment: #e8dfd2;
+    --muted: #7a8699;
+    --border: #2e3a4d;
+    --frame: #10151f;
+    --on-frame: var(--ember);
+    --on-frame-muted: var(--muted);
+  }
+
+  /* ---- THEME: Forge ---- */
+  /* Charcoal, red, and gray — the "hot metal / cooled metal" pairing.
+     --steel is genuinely gray here, not a metaphor stretch like other
+     themes' reuse of that variable — this is the one theme where "steel"
+     is literally steel-colored. Frame is a near-black shade distinctly
+     darker than the content background, giving the black/charcoal frame
+     look asked for without being pure #000 (which read as a touch too
+     flat against the charcoal canvas in testing). */
+  [data-theme="forge"] {
+    --char-black: #151515;
+    --surface: #202020;
+    --surface-2: #2b2b2b;
+    --ember: #e85a4f;
+    --ember-rgb: 232, 90, 79;
+    --ember-dim: #8f2820;
+    --steel: #9aa0a6;
+    --parchment: #e5e3e0;
+    --muted: #8a8a8a;
+    --border: #3a3a3a;
+    --frame: #0d0d0d;
+    --on-frame: var(--ember);
+    --on-frame-muted: var(--muted);
+  }
+
+  /* ---- THEME: Blush ---- */
+  /* Light pink frame, pure white canvas — the cleanest/most minimal
+     theme yet, deliberately just two real colors (rose pink + sage
+     green) rather than Spring's four-hue richness. White is the least
+     forgiving background of any theme so far — every color needed real
+     darkening to pass contrast against it, more than looked necessary
+     just eyeballing the hex values. --ember-dim reuses the frame color
+     directly, since it's already the exact soft pink a lighter accent
+     variant should be. */
+  [data-theme="blush"] {
+    --char-black: #ffffff;
+    --surface: #fbf3f5;
+    --surface-2: #f5e3e8;
+    --ember: #a52f57;
+    --ember-rgb: 165, 47, 87;
+    --ember-dim: #f2c4d3;
+    --steel: #1274b8;
+    --parchment: #262223;
+    --muted: #6e5f66;
+    --border: #ecd8de;
+    --frame: #f2c4d3;
+    --on-frame: var(--parchment);
+    --on-frame-muted: #5c2c43;
+  }
 
   * { box-sizing: border-box; }
 
@@ -71,7 +180,7 @@
     width: 100%;
     max-width: 400px;
     height: 720px;
-    background: var(--char-black);
+    background: var(--frame);
     color: var(--parchment);
     border-radius: 28px;
     border: 1px solid #34291c;
@@ -82,9 +191,31 @@
     position: relative;
   }
 
+  /* On an actual phone-sized viewport, this app IS the whole screen — the
+     fixed-size box above was only ever meant as a desktop preview mockup
+     (a convenient phone-shaped frame to test against in a regular browser
+     window). Without this override, a real phone renders a small fake
+     phone inside itself. 480px covers essentially all phones in portrait;
+     100dvh (dynamic viewport height) — not 100vh — accounts for mobile
+     browser chrome (address bar, etc.) showing/hiding as you scroll,
+     which 100vh notoriously miscalculates on phones. */
+  @media (max-width: 480px) {
+    body {
+      padding: 0;
+      align-items: stretch;
+      justify-content: stretch;
+    }
+    .phone {
+      max-width: none;
+      height: 100dvh;
+      border-radius: 0;
+      border: none;
+      box-shadow: none;
+    }
+  }
+
   .app-header {
     padding: 20px 22px 18px;
-    border-bottom: 1px solid var(--border);
     flex-shrink: 0;
   }
 
@@ -100,21 +231,21 @@
     font-size: 11px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: var(--ember);
+    color: var(--on-frame);
     margin: 0;
   }
 
   .step-progress {
     font-family: var(--font-mono);
     font-size: 11px;
-    color: var(--muted);
+    color: var(--on-frame-muted);
     letter-spacing: 0.04em;
   }
 
   .search-bar {
     width: 100%;
     background: var(--surface);
-    border: 1px solid var(--border);
+    border: 1px solid var(--steel);
     color: var(--parchment);
     font-family: var(--font-body);
     font-size: 13.5px;
@@ -155,13 +286,13 @@
     font-family: var(--font-mono);
     font-size: 12px;
     letter-spacing: 0.04em;
-    color: var(--muted);
+    color: var(--on-frame-muted);
     background: none;
     border: none;
     cursor: pointer;
     padding: 0;
   }
-  .back-btn:hover { color: var(--ember); }
+  .back-btn:hover { color: var(--on-frame); }
 
   .utility-links {
     display: flex;
@@ -181,6 +312,9 @@
   /* Scrollable step feed */
   .content {
     flex: 1;
+    background: var(--char-black);
+    border-radius: 20px 20px 12px 12px;
+    margin: 0 8px 8px;
     padding: 18px 22px 40px;
     overflow-y: auto;
     overflow-x: hidden;
@@ -443,7 +577,7 @@
     width: 100%;
     background: var(--surface);
     border: 1px solid var(--border);
-    color: var(--steel);
+    color: var(--parchment);
     font-family: var(--font-mono);
     font-size: 11px;
     letter-spacing: 0.03em;
